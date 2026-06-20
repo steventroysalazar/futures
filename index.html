@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futures Edge — Professional Crypto Trading Intelligence</title>
+  <meta name="description" content="Real-time crypto futures trading dashboard with professional algorithms, Binance data, and intelligent signal generation.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+
+  <div class="app-shell">
+
+    <!-- ═══════════ Header ═══════════ -->
+    <header class="app-header">
+      <a class="logo" href="#">
+        <div class="logo-icon">⚡</div>
+        <span>FUTURES EDGE</span>
+      </a>
+
+      <div class="header-controls">
+        <!-- Strategy Mode Selector -->
+        <div class="strategy-selector">
+          <button class="strategy-btn" id="strategy-btn">
+            <span class="strategy-icon">⚡</span>
+            <span class="strategy-name">All Strategies</span>
+            <span class="chevron">▼</span>
+          </button>
+          <div class="strategy-dropdown" id="strategy-dropdown">
+            <div class="strategy-option active" data-strategy="all">
+              <span class="icon">⚡</span>
+              <div class="info">
+                <div class="name">All Strategies</div>
+                <div class="desc">Best signal across all algorithms</div>
+              </div>
+            </div>
+            <div class="strategy-option" data-strategy="trend">
+              <span class="icon">📈</span>
+              <div class="info">
+                <div class="name">Trend Following</div>
+                <div class="desc">200 MA filter + 20 EMA pullback</div>
+              </div>
+            </div>
+            <div class="strategy-option" data-strategy="structure">
+              <span class="icon">🏗️</span>
+              <div class="info">
+                <div class="name">Market Structure</div>
+                <div class="desc">HH/HL longs, LH/LL shorts</div>
+              </div>
+            </div>
+            <div class="strategy-option" data-strategy="crossover">
+              <span class="icon">✖️</span>
+              <div class="info">
+                <div class="name">MA Crossover</div>
+                <div class="desc">50/200 MA golden & death cross</div>
+              </div>
+            </div>
+            <div class="strategy-option" data-strategy="funding">
+              <span class="icon">💰</span>
+              <div class="info">
+                <div class="name">Funding Rate Edge</div>
+                <div class="desc">Contrarian funding + trend alignment</div>
+              </div>
+            </div>
+            <div class="strategy-option" data-strategy="swing">
+              <span class="icon">🎯</span>
+              <div class="info">
+                <div class="name">Weekly Swing</div>
+                <div class="desc">Daily trend + 4H pullback, 3-14 day hold</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Status -->
+        <div class="live-indicator">
+          <span class="live-dot" id="live-dot"></span>
+          <span id="live-label">Connecting...</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ═══════════ Sidebar ═══════════ -->
+    <nav class="sidebar">
+      <a class="nav-item active" data-view="dashboard" title="Dashboard">
+        <span class="nav-icon">📊</span>
+        <span class="nav-label">Dash</span>
+      </a>
+      <a class="nav-item" data-view="chart" title="Chart">
+        <span class="nav-icon">📈</span>
+        <span class="nav-label">Chart</span>
+      </a>
+      <a class="nav-item" data-view="calculator" title="Calculator">
+        <span class="nav-icon">🧮</span>
+        <span class="nav-label">Calc</span>
+      </a>
+      <a class="nav-item" data-view="scanner" title="Market Scanner">
+        <span class="nav-icon">🔍</span>
+        <span class="nav-label">Scan</span>
+      </a>
+      <a class="nav-item" data-view="signals" title="Signals">
+        <span class="nav-icon">📡</span>
+        <span class="nav-label">Signals</span>
+      </a>
+      <div class="nav-spacer"></div>
+    </nav>
+
+    <!-- ═══════════ Main Content ═══════════ -->
+    <main class="main-content">
+
+      <!-- Dashboard View -->
+      <div class="view active" id="view-dashboard">
+        <div class="loading-container">
+          <div class="loading-spinner"></div>
+          <span>Loading dashboard...</span>
+        </div>
+      </div>
+
+      <!-- Chart View -->
+      <div class="view" id="view-chart">
+        <div class="chart-view">
+          <!-- Chart Top Bar -->
+          <div class="chart-topbar">
+            <div class="chart-symbol-info">
+              <span class="chart-symbol-name" id="chart-symbol-name" data-symbol="BTCUSDT" title="Click to search symbols">BTC/USDT</span>
+              <div class="chart-price-info">
+                <span class="chart-current-price" id="chart-current-price" data-price="0">—</span>
+                <span class="chart-price-change positive" id="chart-price-change">—</span>
+              </div>
+              <div class="chart-meta">
+                <div class="chart-meta-item">
+                  <span class="label">Funding:</span>
+                  <span class="value" id="chart-funding-rate">—</span>
+                </div>
+                <div class="chart-meta-item">
+                  <span class="label">Mark:</span>
+                  <span class="value" id="chart-mark-price">—</span>
+                </div>
+                <div class="chart-meta-item">
+                  <span class="label">Next Funding:</span>
+                  <span class="value" id="chart-next-funding">—</span>
+                </div>
+              </div>
+            </div>
+            <div class="chart-controls">
+              <!-- Timeframe pills -->
+              <div class="tf-group">
+                <button class="tf-btn active" data-tf="15m">15m</button>
+                <button class="tf-btn" data-tf="1h">1H</button>
+                <button class="tf-btn" data-tf="4h">4H</button>
+                <button class="tf-btn" data-tf="1d">1D</button>
+                <button class="tf-btn" data-tf="1w">1W</button>
+              </div>
+              <!-- Indicator toggles -->
+              <div class="indicator-toggles">
+                <button class="ind-toggle active" data-indicator="ema20" title="20 EMA">EMA20</button>
+                <button class="ind-toggle active" data-indicator="sma50" title="50 SMA">SMA50</button>
+                <button class="ind-toggle active" data-indicator="sma200" title="200 SMA">SMA200</button>
+                <button class="ind-toggle active" data-indicator="vol" title="Volume">VOL</button>
+                <button class="ind-toggle" data-indicator="rsi" title="Relative Strength Index">RSI</button>
+              </div>
+            </div>
+          </div>
+          <!-- Chart Canvas -->
+          <div class="chart-container" id="chart-canvas"></div>
+        </div>
+      </div>
+
+      <!-- Calculator View -->
+      <div class="view" id="view-calculator"></div>
+
+      <!-- Scanner View -->
+      <div class="view" id="view-scanner"></div>
+
+      <!-- Signals View -->
+      <div class="view" id="view-signals"></div>
+
+    </main>
+  </div>
+
+  <!-- Symbol Search Modal -->
+  <div class="symbol-search-overlay" id="symbol-search-overlay">
+    <div class="symbol-search-box">
+      <input type="text" class="symbol-search-input" id="symbol-search-input" placeholder="Search symbol... (e.g. BTC, ETH, SOL)" autocomplete="off">
+      <div class="symbol-search-results" id="symbol-search-results"></div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- JS Modules -->
+  <script src="js/indicators.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/strategies.js"></script>
+  <script src="js/scanner.js"></script>
+  <script src="js/journal.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
