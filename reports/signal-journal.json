@@ -1,5 +1,461 @@
 [
   {
+    "id": "BICOUSDT-Market Structure-long-1781932606664-3635",
+    "symbol": "BICOUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 50,
+    "entry": 0.03635,
+    "stopLoss": 0.029825713215247796,
+    "tp1": 0.041243215088564156,
+    "tp2": 0.0448,
+    "tp3": 0.04868090202318167,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932606664,
+    "updatedAt": 1781932606664,
+    "firstHitAt": null,
+    "lastPrice": 0.03662,
+    "maxFavorableR": 0,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
+    "id": "RIFUSDT-Market Structure-long-1781932591351-10362",
+    "symbol": "RIFUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 60,
+    "entry": 0.10362,
+    "stopLoss": 0.08791836873756824,
+    "tp1": 0.11539622344682382,
+    "tp2": 0.12294,
+    "tp3": 0.13329608308599603,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. RSI 64 — room to run. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932591351,
+    "updatedAt": 1781932591351,
+    "firstHitAt": null,
+    "lastPrice": 0.10359,
+    "maxFavorableR": 0,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
+    "id": "BICOUSDT-Market Structure-long-1781932576418-3695",
+    "symbol": "BICOUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 50,
+    "entry": 0.03695,
+    "stopLoss": 0.030425713215247792,
+    "tp1": 0.04184321508856415,
+    "tp2": 0.0448,
+    "tp3": 0.049280902023181666,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932576418,
+    "updatedAt": 1781932576418,
+    "firstHitAt": null,
+    "lastPrice": 0.03698,
+    "maxFavorableR": 0,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
+    "id": "EVAAUSDT-Market Structure-long-1781932561344-75590",
+    "symbol": "EVAAUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 60,
+    "entry": 0.7559,
+    "stopLoss": 0.5825678326666827,
+    "tp1": 0.86,
+    "tp2": 0.9985650342666443,
+    "tp3": 1.08349779625997,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. RSI 56 — room to run. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932561344,
+    "updatedAt": 1781932561344,
+    "firstHitAt": null,
+    "lastPrice": 0.7556,
+    "maxFavorableR": 0,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
+    "id": "BELUSDT-Market Structure-long-1781932546013-12368",
+    "symbol": "BELUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 50,
+    "entry": 0.12368,
+    "stopLoss": 0.10856310952444417,
+    "tp1": 0.13501766785666686,
+    "tp2": 0.14484364666577815,
+    "tp3": 0.1522509229988005,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Normal, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932546013,
+    "updatedAt": 1781932546013,
+    "firstHitAt": null,
+    "lastPrice": 0.12363,
+    "maxFavorableR": 0,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
+    "id": "BICOUSDT-Market Structure-long-1781932516796-3761",
+    "symbol": "BICOUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 50,
+    "entry": 0.03761,
+    "stopLoss": 0.031085713215247793,
+    "tp1": 0.04250321508856415,
+    "tp2": 0.0448,
+    "tp3": 0.04994090202318167,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932516796,
+    "updatedAt": 1781932516796,
+    "firstHitAt": null,
+    "lastPrice": 0.03761,
+    "maxFavorableR": 0,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
+    "id": "EIGENUSDT-Market Structure-long-1781932502581-27870",
+    "symbol": "EIGENUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 50,
+    "entry": 0.2787,
+    "stopLoss": 0.2519505357505674,
+    "tp1": 0.29876209818707444,
+    "tp2": 0.3161492499492056,
+    "tp3": 0.3292564874314276,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Normal, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932502581,
+    "updatedAt": 1781932502581,
+    "firstHitAt": null,
+    "lastPrice": 0.2787,
+    "maxFavorableR": 0,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
+    "id": "BICOUSDT-Market Structure-long-1781932485925-3736",
+    "symbol": "BICOUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 50,
+    "entry": 0.03736,
+    "stopLoss": 0.030835713215247793,
+    "tp1": 0.04225321508856415,
+    "tp2": 0.0448,
+    "tp3": 0.04969090202318167,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932485925,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.04,
+    "maxAdverseR": -0.06,
+    "rMultiple": -0.06
+  },
+  {
+    "id": "AEROUSDT-Market Structure-long-1781932481084-50010",
+    "symbol": "AEROUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 45,
+    "entry": 0.5001,
+    "stopLoss": 0.45000058752844535,
+    "tp1": 0.5376745593536659,
+    "tp2": 0.5702391774601765,
+    "tp3": 0.5947878895712383,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). RSI 63 — room to run. Targets adjusted to nearby structure/volatility. TP1 Normal, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932481084,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.5,
+    "maxFavorableR": 0,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
+    "id": "RIFUSDT-Market Structure-long-1781932481084-10311",
+    "symbol": "RIFUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 60,
+    "entry": 0.10311,
+    "stopLoss": 0.0874355115947111,
+    "tp1": 0.11486586630396667,
+    "tp2": 0.12294,
+    "tp3": 0.132734783085996,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. RSI 63 — room to run. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932481084,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.02,
+    "maxAdverseR": 0,
+    "rMultiple": 0.01
+  },
+  {
+    "id": "BELUSDT-Market Structure-long-1781932481084-12322",
+    "symbol": "BELUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 50,
+    "entry": 0.12322,
+    "stopLoss": 0.10810310952444417,
+    "tp1": 0.13455766785666687,
+    "tp2": 0.14438364666577816,
+    "tp3": 0.1517909229988005,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Normal, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932481084,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.1236,
+    "maxFavorableR": 0.03,
+    "maxAdverseR": 0,
+    "rMultiple": 0.03
+  },
+  {
+    "id": "BICOUSDT-Market Structure-long-1781932481084-3724",
+    "symbol": "BICOUSDT",
+    "strategy": "Market Structure",
+    "signal": "long",
+    "confidence": 50,
+    "entry": 0.03724,
+    "stopLoss": 0.030715713215247797,
+    "tp1": 0.04213321508856416,
+    "tp2": 0.0448,
+    "tp3": 0.04957090202318167,
+    "leverage": 3,
+    "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932481084,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.06,
+    "maxAdverseR": -0.04,
+    "rMultiple": -0.04
+  },
+  {
+    "id": "BICOUSDT-Funding Rate Edge-long-1781932470874-3717",
+    "symbol": "BICOUSDT",
+    "strategy": "Funding Rate Edge",
+    "signal": "long",
+    "confidence": 75,
+    "entry": 0.03717,
+    "stopLoss": 0.030645713215247797,
+    "tp1": 0.04206321508856416,
+    "tp2": 0.0448,
+    "tp3": 0.04950090202318167,
+    "leverage": 3,
+    "reason": "Uptrend (above 200 MA). ⚡ Negative funding in uptrend — squeeze potential! Open interest confirmed. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932470874,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.07,
+    "maxAdverseR": -0.03,
+    "rMultiple": -0.03
+  },
+  {
+    "id": "EVAAUSDT-Weekly Swing-long-1781932456085-75200",
+    "symbol": "EVAAUSDT",
+    "strategy": "Weekly Swing",
+    "signal": "long",
+    "confidence": 65,
+    "entry": 0.752,
+    "stopLoss": 0.5359597908333533,
+    "tp1": 0.881624125499988,
+    "tp2": 0.9939650342666443,
+    "tp3": 1.07865279625997,
+    "leverage": 4,
+    "reason": "Daily trend bullish (50 EMA > 200 MA). Holding above 50 EMA. RSI 56 — not overbought. Bullish candle. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932456085,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.02,
+    "maxAdverseR": 0,
+    "rMultiple": 0.02
+  },
+  {
+    "id": "RIFUSDT-Weekly Swing-long-1781932440915-10333",
+    "symbol": "RIFUSDT",
+    "strategy": "Weekly Swing",
+    "signal": "long",
+    "confidence": 65,
+    "entry": 0.10333,
+    "stopLoss": 0.08375474663624602,
+    "tp1": 0.1150751520182524,
+    "tp2": 0.12294,
+    "tp3": 0.13292778308599604,
+    "leverage": 4,
+    "reason": "Daily trend bullish (50 EMA > 200 MA). Holding above 50 EMA. RSI 63 — not overbought. Bullish candle. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932440915,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
+    "id": "TACUSDT-Market Structure-short-1781932426482-2112",
+    "symbol": "TACUSDT",
+    "strategy": "Market Structure",
+    "signal": "short",
+    "confidence": 85,
+    "entry": 0.021122,
+    "stopLoss": 0.023811548255520863,
+    "tp1": 0.01910483880835935,
+    "tp2": 0.01744,
+    "tp3": 0.016038753797065562,
+    "leverage": 3,
+    "reason": "Bearish structure (LH + LL). Price at resistance level. Bearish candle confirmation. RSI 52 — room to fall. Targets adjusted to nearby structure/volatility. TP1 Normal, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932426482,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.021187,
+    "maxFavorableR": 0,
+    "maxAdverseR": -0.02,
+    "rMultiple": -0.02
+  },
+  {
+    "id": "LUMIAUSDT-MA Crossover-long-1781932393454-12158",
+    "symbol": "LUMIAUSDT",
+    "strategy": "MA Crossover",
+    "signal": "long",
+    "confidence": 50,
+    "entry": 0.12158,
+    "stopLoss": 0.09302592177386754,
+    "tp1": 0.13237828467839738,
+    "tp2": 0.14173679806634176,
+    "tp3": 0.1487916773895614,
+    "leverage": 2,
+    "reason": "50 MA above 200 MA (Golden Cross). Recent golden cross — fresh momentum. Targets adjusted to nearby structure/volatility. TP1 Normal, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932393454,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0,
+    "maxAdverseR": -0.01,
+    "rMultiple": -0.01
+  },
+  {
+    "id": "BELUSDT-Funding Rate Edge-long-1781932373918-12304",
+    "symbol": "BELUSDT",
+    "strategy": "Funding Rate Edge",
+    "signal": "long",
+    "confidence": 75,
+    "entry": 0.12304,
+    "stopLoss": 0.10792310952444417,
+    "tp1": 0.13437766785666685,
+    "tp2": 0.14420364666577815,
+    "tp3": 0.15161092299880052,
+    "leverage": 3,
+    "reason": "Uptrend (above 200 MA). ⚡ Negative funding in uptrend — squeeze potential! Open interest confirmed. Targets adjusted to nearby structure/volatility. TP1 Normal, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932373918,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.1236,
+    "maxFavorableR": 0.04,
+    "maxAdverseR": 0,
+    "rMultiple": 0.04
+  },
+  {
+    "id": "BICOUSDT-Funding Rate Edge-long-1781932373918-3700",
+    "symbol": "BICOUSDT",
+    "strategy": "Funding Rate Edge",
+    "signal": "long",
+    "confidence": 75,
+    "entry": 0.037,
+    "stopLoss": 0.030475713215247793,
+    "tp1": 0.041893215088564154,
+    "tp2": 0.0448,
+    "tp3": 0.04933090202318167,
+    "leverage": 3,
+    "reason": "Uptrend (above 200 MA). ⚡ Negative funding in uptrend — squeeze potential! Open interest confirmed. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
+    "source": "dashboard",
+    "status": "open",
+    "outcome": "tracking",
+    "createdAt": 1781932373918,
+    "updatedAt": 1781932500000,
+    "firstHitAt": null,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.1,
+    "maxAdverseR": 0,
+    "rMultiple": 0
+  },
+  {
     "id": "AEROUSDT-Weekly Swing-long-1781932230809-49930",
     "symbol": "AEROUSDT",
     "strategy": "Weekly Swing",
@@ -16,12 +472,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932230809,
-    "updatedAt": 1781932230809,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4994,
-    "maxFavorableR": 0,
+    "lastPrice": 0.5,
+    "maxFavorableR": 0.01,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.01
   },
   {
     "id": "EIGENUSDT-MA Crossover-long-1781932230809-28000",
@@ -40,12 +496,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932230809,
-    "updatedAt": 1781932230809,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2796,
+    "lastPrice": 0.2756,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.05,
+    "rMultiple": -0.05
   },
   {
     "id": "LUMIAUSDT-Weekly Swing-long-1781932214727-11958",
@@ -64,12 +520,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932214727,
-    "updatedAt": 1781932214727,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11918,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.1,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.09
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781932214727-3653",
@@ -88,12 +544,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932214727,
-    "updatedAt": 1781932214727,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03624,
-    "maxFavorableR": 0,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.18,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.07
   },
   {
     "id": "ORDIUSDT-MA Crossover-short-1781932199761-343700",
@@ -112,12 +568,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932199761,
-    "updatedAt": 1781932199761,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 3.435,
-    "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "lastPrice": 3.434,
+    "maxFavorableR": 0.02,
+    "maxAdverseR": -0.03,
+    "rMultiple": 0.02
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781932199761-3618",
@@ -136,12 +592,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932199761,
-    "updatedAt": 1781932199761,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03618,
-    "maxFavorableR": 0,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.23,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.12
   },
   {
     "id": "BELUSDT-Funding Rate Edge-long-1781932183668-12246",
@@ -160,12 +616,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932183668,
-    "updatedAt": 1781932183668,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.12254,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1236,
+    "maxFavorableR": 0.08,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.08
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781932183668-3601",
@@ -184,12 +640,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932183668,
-    "updatedAt": 1781932183668,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.0361,
-    "maxFavorableR": 0,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.26,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.15
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781932169818-3636",
@@ -208,12 +664,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932169818,
-    "updatedAt": 1781932169818,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03591,
-    "maxFavorableR": 0,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.2,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.1
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781932154822-3537",
@@ -232,12 +688,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932154822,
-    "updatedAt": 1781932154822,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03524,
-    "maxFavorableR": 0,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.37,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.26
   },
   {
     "id": "EIGENUSDT-MA Crossover-long-1781932077697-27870",
@@ -256,12 +712,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932077697,
-    "updatedAt": 1781932077697,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2784,
+    "lastPrice": 0.2756,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.04,
+    "rMultiple": -0.04
   },
   {
     "id": "PORTALUSDT-Funding Rate Edge-long-1781932047500-1661",
@@ -280,12 +736,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932047500,
-    "updatedAt": 1781932047500,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01657,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.06,
+    "rMultiple": -0.05
   },
   {
     "id": "EIGENUSDT-MA Crossover-long-1781932034673-27780",
@@ -304,12 +760,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932034673,
-    "updatedAt": 1781932034673,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2774,
-    "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "lastPrice": 0.2756,
+    "maxFavorableR": 0.01,
+    "maxAdverseR": -0.03,
+    "rMultiple": -0.03
   },
   {
     "id": "EVAAUSDT-Weekly Swing-long-1781932019116-74300",
@@ -328,12 +784,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932019116,
-    "updatedAt": 1781932019116,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.7424,
-    "maxFavorableR": 0,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.06,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.06
   },
   {
     "id": "BLESSUSDT-Weekly Swing-long-1781932002508-816",
@@ -352,12 +808,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781932002508,
-    "updatedAt": 1781932002508,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008164,
-    "maxFavorableR": 0,
+    "lastPrice": 0.008254,
+    "maxFavorableR": 0.06,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.06
   },
   {
     "id": "AEROUSDT-Weekly Swing-long-1781931972708-49760",
@@ -376,12 +832,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931972708,
-    "updatedAt": 1781931972708,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4974,
-    "maxFavorableR": 0,
+    "lastPrice": 0.5,
+    "maxFavorableR": 0.04,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.04
   },
   {
     "id": "GUAUSDT-Trend Following-short-1781931957765-87870",
@@ -400,12 +856,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931957765,
-    "updatedAt": 1781931957765,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.8787,
+    "lastPrice": 0.8811,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.03,
+    "rMultiple": -0.02
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781931957765-3507",
@@ -424,12 +880,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931957765,
-    "updatedAt": 1781931957765,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03506,
-    "maxFavorableR": 0,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.42,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.31
   },
   {
     "id": "LABUSDT-Funding Rate Edge-long-1781931942959-1170800",
@@ -448,10 +904,10 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931942959,
-    "updatedAt": 1781931942959,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 11.707,
-    "maxFavorableR": 0,
+    "lastPrice": 11.715,
+    "maxFavorableR": 0.03,
     "maxAdverseR": 0,
     "rMultiple": 0
   },
@@ -472,12 +928,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931942959,
-    "updatedAt": 1781931942959,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03048,
+    "lastPrice": 0.03073,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.01,
+    "rMultiple": -0.01
   },
   {
     "id": "UBUSDT-Market Structure-short-1781931929665-8097",
@@ -496,12 +952,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931929665,
-    "updatedAt": 1781931929665,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.08097,
+    "lastPrice": 0.08153,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.04,
+    "rMultiple": -0.04
   },
   {
     "id": "BLESSUSDT-Weekly Swing-long-1781931909472-818",
@@ -520,12 +976,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931909472,
-    "updatedAt": 1781931909472,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008177,
-    "maxFavorableR": 0,
+    "lastPrice": 0.008254,
+    "maxFavorableR": 0.04,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.04
   },
   {
     "id": "RIFUSDT-Weekly Swing-long-1781931854360-10298",
@@ -544,12 +1000,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931854360,
-    "updatedAt": 1781931854360,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10291,
-    "maxFavorableR": 0,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.02,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.02
   },
   {
     "id": "LUMIAUSDT-Weekly Swing-long-1781931794589-11914",
@@ -568,12 +1024,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931794589,
-    "updatedAt": 1781931794589,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11898,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.12,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.11
   },
   {
     "id": "CLOUSDT-Weekly Swing-long-1781931779852-23502",
@@ -592,12 +1048,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931779852,
-    "updatedAt": 1781931779852,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.23436,
+    "lastPrice": 0.23416,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.01,
+    "rMultiple": -0.01
   },
   {
     "id": "UBUSDT-Market Structure-short-1781931761579-8130",
@@ -616,12 +1072,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931761579,
-    "updatedAt": 1781931761579,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.08129,
+    "lastPrice": 0.08153,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.02,
+    "rMultiple": -0.02
   },
   {
     "id": "EVAAUSDT-Weekly Swing-long-1781931742380-74640",
@@ -640,12 +1096,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931742380,
-    "updatedAt": 1781931742380,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.7479,
-    "maxFavorableR": 0,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.05,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.05
   },
   {
     "id": "LUMIAUSDT-Weekly Swing-long-1781931730560-11875",
@@ -664,12 +1120,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931730560,
-    "updatedAt": 1781931730560,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11873,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.14,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.14
   },
   {
     "id": "BLESSUSDT-Weekly Swing-long-1781931730560-821",
@@ -688,12 +1144,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931730560,
-    "updatedAt": 1781931730560,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008206,
-    "maxFavorableR": 0,
+    "lastPrice": 0.008254,
+    "maxFavorableR": 0.03,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.03
   },
   {
     "id": "CLOUSDT-Weekly Swing-long-1781931730560-23339",
@@ -712,12 +1168,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931730560,
-    "updatedAt": 1781931730560,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.23374,
-    "maxFavorableR": 0,
+    "lastPrice": 0.23416,
+    "maxFavorableR": 0.01,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.01
   },
   {
     "id": "ASRUSDT-Trend Following-long-1781931727396-109500",
@@ -736,12 +1192,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931727396,
-    "updatedAt": 1781931727396,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.094,
-    "maxFavorableR": 0,
+    "lastPrice": 1.098,
+    "maxFavorableR": 0.04,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.04
   },
   {
     "id": "ORDIUSDT-Trend Following-short-1781931727396-344100",
@@ -760,12 +1216,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931727396,
-    "updatedAt": 1781931727396,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 3.443,
-    "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "lastPrice": 3.434,
+    "maxFavorableR": 0.03,
+    "maxAdverseR": -0.01,
+    "rMultiple": 0.03
   },
   {
     "id": "BICOUSDT-Trend Following-long-1781931727396-3429",
@@ -784,12 +1240,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931727396,
-    "updatedAt": 1781931727396,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03439,
-    "maxFavorableR": 0,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.74,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.59
   },
   {
     "id": "RIFUSDT-Trend Following-long-1781931723680-10243",
@@ -808,12 +1264,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931723680,
-    "updatedAt": 1781931723680,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10259,
-    "maxFavorableR": 0,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.08,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.08
   },
   {
     "id": "EVAAUSDT-Trend Following-long-1781931723680-74940",
@@ -832,12 +1288,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931723680,
-    "updatedAt": 1781931723680,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.7496,
-    "maxFavorableR": 0,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.06,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.06
   },
   {
     "id": "UBUSDT-Trend Following-short-1781931723680-8143",
@@ -856,12 +1312,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931723680,
-    "updatedAt": 1781931723680,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.08148,
+    "lastPrice": 0.08153,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.02,
+    "rMultiple": -0.01
   },
   {
     "id": "PORTALUSDT-Trend Following-long-1781931723680-1636",
@@ -880,12 +1336,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931723680,
-    "updatedAt": 1781931723680,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01637,
-    "maxFavorableR": 0,
+    "lastPrice": 0.0165,
+    "maxFavorableR": 0.08,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.08
   },
   {
     "id": "BICOUSDT-Trend Following-long-1781931723680-3441",
@@ -904,12 +1360,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931723680,
-    "updatedAt": 1781931723680,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03441,
-    "maxFavorableR": 0,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.71,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.56
   },
   {
     "id": "AXSUSDT-Trend Following-long-1781931723680-116300",
@@ -928,12 +1384,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931723680,
-    "updatedAt": 1781931723680,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.164,
+    "lastPrice": 1.152,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.18,
+    "rMultiple": -0.18
   },
   {
     "id": "LUMIAUSDT-Market Structure-long-1781931715458-11833",
@@ -952,12 +1408,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931715458,
-    "updatedAt": 1781931715458,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11833,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.21,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.2
   },
   {
     "id": "AEROUSDT-Market Structure-long-1781931715458-49540",
@@ -976,12 +1432,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931715458,
-    "updatedAt": 1781931715458,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4954,
-    "maxFavorableR": 0,
+    "lastPrice": 0.5,
+    "maxFavorableR": 0.1,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.09
   },
   {
     "id": "METUSDT-Market Structure-long-1781931715458-14590",
@@ -1000,12 +1456,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931715458,
-    "updatedAt": 1781931715458,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.1459,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1462,
+    "maxFavorableR": 0.02,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.02
   },
   {
     "id": "CLOUSDT-Market Structure-long-1781931715458-23349",
@@ -1024,12 +1480,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931715458,
-    "updatedAt": 1781931715458,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.23303,
-    "maxFavorableR": 0,
+    "lastPrice": 0.23416,
+    "maxFavorableR": 0.01,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.01
   },
   {
     "id": "RIFUSDT-Weekly Swing-long-1781931697901-10262",
@@ -1048,12 +1504,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931697901,
-    "updatedAt": 1781931697901,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10253,
-    "maxFavorableR": 0,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.04,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.04
   },
   {
     "id": "SANDUSDT-Market Structure-long-1781931697901-5606",
@@ -1072,12 +1528,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931697901,
-    "updatedAt": 1781931697901,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.05606,
-    "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "lastPrice": 0.05603,
+    "maxFavorableR": 0.03,
+    "maxAdverseR": -0.01,
+    "rMultiple": -0.01
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781931697901-3422",
@@ -1096,12 +1552,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931697901,
-    "updatedAt": 1781931697901,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03423,
-    "maxFavorableR": 0,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.56,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.45
   },
   {
     "id": "ORDIUSDT-Funding Rate Edge-short-1781931682963-344100",
@@ -1120,12 +1576,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931682963,
-    "updatedAt": 1781931682963,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 3.443,
-    "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "lastPrice": 3.434,
+    "maxFavorableR": 0.02,
+    "maxAdverseR": -0.01,
+    "rMultiple": 0.02
   },
   {
     "id": "GPSUSDT-Weekly Swing-long-1781931682963-938",
@@ -1144,10 +1600,10 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931682963,
-    "updatedAt": 1781931682963,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.00938,
-    "maxFavorableR": 0,
+    "lastPrice": 0.009376,
+    "maxFavorableR": 0.01,
     "maxAdverseR": 0,
     "rMultiple": 0
   },
@@ -1168,12 +1624,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931668132,
-    "updatedAt": 1781931668132,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.8742,
+    "lastPrice": 0.8811,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.07,
+    "rMultiple": -0.05
   },
   {
     "id": "UBUSDT-Funding Rate Edge-short-1781931668132-8153",
@@ -1192,9 +1648,9 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931668132,
-    "updatedAt": 1781931668132,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.08154,
+    "lastPrice": 0.08153,
     "maxFavorableR": 0,
     "maxAdverseR": 0,
     "rMultiple": 0
@@ -1216,12 +1672,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931668132,
-    "updatedAt": 1781931668132,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.05579,
-    "maxFavorableR": 0,
+    "lastPrice": 0.05603,
+    "maxFavorableR": 0.09,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.05
   },
   {
     "id": "AEROUSDT-Weekly Swing-long-1781931623290-49560",
@@ -1240,12 +1696,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931623290,
-    "updatedAt": 1781931623290,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4955,
-    "maxFavorableR": 0,
+    "lastPrice": 0.5,
+    "maxFavorableR": 0.07,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.07
   },
   {
     "id": "GUAUSDT-Trend Following-short-1781931623290-87600",
@@ -1264,12 +1720,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931623290,
-    "updatedAt": 1781931623290,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.8792,
+    "lastPrice": 0.8811,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.05,
+    "rMultiple": -0.03
   },
   {
     "id": "SANDUSDT-Market Structure-long-1781931623290-5566",
@@ -1288,12 +1744,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931623290,
-    "updatedAt": 1781931623290,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.05563,
-    "maxFavorableR": 0,
+    "lastPrice": 0.05603,
+    "maxFavorableR": 0.17,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.13
   },
   {
     "id": "CLOUSDT-Weekly Swing-long-1781931623290-23187",
@@ -1312,12 +1768,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931623290,
-    "updatedAt": 1781931623290,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.23238,
-    "maxFavorableR": 0,
+    "lastPrice": 0.23416,
+    "maxFavorableR": 0.04,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.04
   },
   {
     "id": "AXSUSDT-Funding Rate Edge-long-1781931623290-117500",
@@ -1336,12 +1792,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931623290,
-    "updatedAt": 1781931623290,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.174,
+    "lastPrice": 1.152,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.29,
+    "rMultiple": -0.29
   },
   {
     "id": "LABUSDT-Funding Rate Edge-long-1781931607273-1165900",
@@ -1360,12 +1816,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931607273,
-    "updatedAt": 1781931607273,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 11.657,
-    "maxFavorableR": 0,
+    "lastPrice": 11.715,
+    "maxFavorableR": 0.05,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.02
   },
   {
     "id": "WCTUSDT-Market Structure-short-1781931607273-4891",
@@ -1384,12 +1840,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931607273,
-    "updatedAt": 1781931607273,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.04894,
+    "lastPrice": 0.04933,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.1,
+    "rMultiple": -0.09
   },
   {
     "id": "KATUSDT-Market Structure-short-1781931607273-592",
@@ -1408,12 +1864,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931607273,
-    "updatedAt": 1781931607273,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.00592,
-    "maxFavorableR": 0,
+    "lastPrice": 0.005872,
+    "maxFavorableR": 0.1,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.1
   },
   {
     "id": "TACUSDT-Market Structure-short-1781931607273-2119",
@@ -1432,10 +1888,10 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931607273,
-    "updatedAt": 1781931607273,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.021188,
-    "maxFavorableR": 0,
+    "lastPrice": 0.021187,
+    "maxFavorableR": 0.01,
     "maxAdverseR": 0,
     "rMultiple": 0
   },
@@ -1456,12 +1912,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931607273,
-    "updatedAt": 1781931607273,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11736,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.22,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.21
   },
   {
     "id": "METUSDT-Funding Rate Edge-long-1781931607273-14600",
@@ -1480,12 +1936,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931607273,
-    "updatedAt": 1781931607273,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.1461,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1462,
+    "maxFavorableR": 0.01,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.01
   },
   {
     "id": "CLOUSDT-Weekly Swing-long-1781931607273-23267",
@@ -1504,12 +1960,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931607273,
-    "updatedAt": 1781931607273,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.23312,
-    "maxFavorableR": 0,
+    "lastPrice": 0.23416,
+    "maxFavorableR": 0.02,
     "maxAdverseR": 0,
-    "rMultiple": 0
+    "rMultiple": 0.02
   },
   {
     "id": "AXSUSDT-Funding Rate Edge-long-1781931607273-117100",
@@ -1528,12 +1984,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931607273,
-    "updatedAt": 1781931607273,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.167,
+    "lastPrice": 1.152,
     "maxFavorableR": 0,
-    "maxAdverseR": 0,
-    "rMultiple": 0
+    "maxAdverseR": -0.24,
+    "rMultiple": -0.24
   },
   {
     "id": "EIGENUSDT-MA Crossover-long-1781931575069-27320",
@@ -1552,12 +2008,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931575069,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2794,
+    "lastPrice": 0.2756,
     "maxFavorableR": 0.09,
     "maxAdverseR": 0,
-    "rMultiple": 0.08
+    "rMultiple": 0.03
   },
   {
     "id": "AXSUSDT-Market Structure-long-1781931575069-116400",
@@ -1576,12 +2032,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931575069,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.168,
+    "lastPrice": 1.152,
     "maxFavorableR": 0.18,
-    "maxAdverseR": -0.04,
-    "rMultiple": 0.05
+    "maxAdverseR": -0.15,
+    "rMultiple": -0.15
   },
   {
     "id": "RIFUSDT-Weekly Swing-long-1781931571076-10216",
@@ -1600,12 +2056,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931571076,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10293,
-    "maxFavorableR": 0.04,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.06,
     "maxAdverseR": -0.01,
-    "rMultiple": 0.04
+    "rMultiple": 0.06
   },
   {
     "id": "AXSUSDT-Funding Rate Edge-long-1781931571076-116500",
@@ -1624,12 +2080,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931571076,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.168,
+    "lastPrice": 1.152,
     "maxFavorableR": 0.16,
-    "maxAdverseR": -0.05,
-    "rMultiple": 0.04
+    "maxAdverseR": -0.16,
+    "rMultiple": -0.16
   },
   {
     "id": "EVAAUSDT-Weekly Swing-long-1781931559335-74960",
@@ -1648,12 +2104,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931559335,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.7429,
-    "maxFavorableR": 0.01,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.03,
     "maxAdverseR": -0.04,
-    "rMultiple": -0.03
+    "rMultiple": 0.03
   },
   {
     "id": "LUMIAUSDT-Weekly Swing-long-1781931559335-11819",
@@ -1672,12 +2128,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931559335,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11936,
-    "maxFavorableR": 0.11,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.17,
     "maxAdverseR": -0.05,
-    "rMultiple": 0.07
+    "rMultiple": 0.17
   },
   {
     "id": "CLOUSDT-Weekly Swing-long-1781931559335-23418",
@@ -1696,12 +2152,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931559335,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2352,
-    "maxFavorableR": 0.02,
+    "lastPrice": 0.23416,
+    "maxFavorableR": 0.03,
     "maxAdverseR": -0.04,
-    "rMultiple": 0.02
+    "rMultiple": 0
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781931559335-3411",
@@ -1720,12 +2176,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931559335,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.38,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.58,
     "maxAdverseR": -0.03,
-    "rMultiple": 0.38
+    "rMultiple": 0.47
   },
   {
     "id": "CLOUSDT-Market Structure-long-1781931437651-23438",
@@ -1744,12 +2200,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931437651,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2352,
-    "maxFavorableR": 0.02,
+    "lastPrice": 0.23416,
+    "maxFavorableR": 0.03,
     "maxAdverseR": -0.06,
-    "rMultiple": 0.02
+    "rMultiple": 0
   },
   {
     "id": "AXSUSDT-Market Structure-long-1781931437651-116000",
@@ -1768,12 +2224,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931437651,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.168,
+    "lastPrice": 1.152,
     "maxFavorableR": 0.23,
-    "maxAdverseR": 0,
-    "rMultiple": 0.1
+    "maxAdverseR": -0.1,
+    "rMultiple": -0.1
   },
   {
     "id": "ORDIUSDT-Market Structure-long-1781931414148-345400",
@@ -1792,12 +2248,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931414148,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 3.445,
+    "lastPrice": 3.434,
     "maxFavorableR": 0,
     "maxAdverseR": -0.09,
-    "rMultiple": -0.03
+    "rMultiple": -0.07
   },
   {
     "id": "KATUSDT-Market Structure-short-1781931414148-589",
@@ -1816,12 +2272,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931414148,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.005866,
+    "lastPrice": 0.005872,
     "maxFavorableR": 0.05,
     "maxAdverseR": -0.09,
-    "rMultiple": 0.05
+    "rMultiple": 0.04
   },
   {
     "id": "GUAUSDT-Market Structure-long-1781931414148-88060",
@@ -1840,12 +2296,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931414148,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.8839,
+    "lastPrice": 0.8811,
     "maxFavorableR": 0.02,
     "maxAdverseR": -0.03,
-    "rMultiple": 0.02
+    "rMultiple": 0
   },
   {
     "id": "AXSUSDT-Market Structure-long-1781931414148-115400",
@@ -1864,12 +2320,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931414148,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.168,
+    "lastPrice": 1.152,
     "maxFavorableR": 0.31,
-    "maxAdverseR": 0,
-    "rMultiple": 0.18
+    "maxAdverseR": -0.03,
+    "rMultiple": -0.03
   },
   {
     "id": "EDGEUSDT-Market Structure-short-1781931377955-40900",
@@ -1888,12 +2344,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931377955,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4078,
+    "lastPrice": 0.4067,
     "maxFavorableR": 0.11,
     "maxAdverseR": 0,
-    "rMultiple": 0.03
+    "rMultiple": 0.06
   },
   {
     "id": "EVAAUSDT-Market Structure-long-1781931363180-75310",
@@ -1912,12 +2368,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931363180,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.7429,
-    "maxFavorableR": 0,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.02,
     "maxAdverseR": -0.07,
-    "rMultiple": -0.06
+    "rMultiple": 0.02
   },
   {
     "id": "EVAAUSDT-Market Structure-long-1781931347956-75040",
@@ -1936,12 +2392,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931347956,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.7429,
-    "maxFavorableR": 0.01,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.04,
     "maxAdverseR": -0.05,
-    "rMultiple": -0.04
+    "rMultiple": 0.04
   },
   {
     "id": "BICOUSDT-Market Structure-long-1781931347956-3471",
@@ -1960,12 +2416,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931347956,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.28,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.48,
     "maxAdverseR": -0.13,
-    "rMultiple": 0.28
+    "rMultiple": 0.37
   },
   {
     "id": "ORDIUSDT-Market Structure-long-1781931273242-343900",
@@ -1984,12 +2440,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931273242,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 3.445,
+    "lastPrice": 3.434,
     "maxFavorableR": 0.04,
     "maxAdverseR": -0.04,
-    "rMultiple": 0.02
+    "rMultiple": -0.02
   },
   {
     "id": "BICOUSDT-Market Structure-long-1781931241952-3439",
@@ -2008,12 +2464,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931241952,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.33,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.54,
     "maxAdverseR": -0.08,
-    "rMultiple": 0.33
+    "rMultiple": 0.42
   },
   {
     "id": "AXSUSDT-Market Structure-long-1781931228022-114700",
@@ -2032,12 +2488,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931228022,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.168,
+    "lastPrice": 1.152,
     "maxFavorableR": 0.4,
     "maxAdverseR": 0,
-    "rMultiple": 0.27
+    "rMultiple": 0.07
   },
   {
     "id": "PORTALUSDT-Market Structure-short-1781931210420-1661",
@@ -2056,12 +2512,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931210420,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.11,
     "maxAdverseR": 0,
-    "rMultiple": 0.07
+    "rMultiple": 0.05
   },
   {
     "id": "PORTALUSDT-Market Structure-short-1781931180554-1672",
@@ -2080,12 +2536,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931180554,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.16,
     "maxAdverseR": 0,
-    "rMultiple": 0.12
+    "rMultiple": 0.09
   },
   {
     "id": "RIFUSDT-Market Structure-long-1781931167042-10276",
@@ -2104,12 +2560,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931167042,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10293,
-    "maxFavorableR": 0.02,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.04,
     "maxAdverseR": -0.05,
-    "rMultiple": 0.01
+    "rMultiple": 0.04
   },
   {
     "id": "BICOUSDT-Market Structure-long-1781931136185-3371",
@@ -2128,12 +2584,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931136185,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.44,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.65,
     "maxAdverseR": 0,
-    "rMultiple": 0.44
+    "rMultiple": 0.54
   },
   {
     "id": "RIFUSDT-Market Structure-long-1781931119499-10243",
@@ -2152,12 +2608,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931119499,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10293,
-    "maxFavorableR": 0.04,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.06,
     "maxAdverseR": -0.03,
-    "rMultiple": 0.03
+    "rMultiple": 0.06
   },
   {
     "id": "PORTALUSDT-Market Structure-short-1781931119499-1666",
@@ -2176,12 +2632,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931119499,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.13,
     "maxAdverseR": 0,
-    "rMultiple": 0.1
+    "rMultiple": 0.07
   },
   {
     "id": "BLESSUSDT-Market Structure-long-1781931104196-818",
@@ -2200,12 +2656,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931104196,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008182,
-    "maxFavorableR": 0.06,
+    "lastPrice": 0.008254,
+    "maxFavorableR": 0.07,
     "maxAdverseR": -0.01,
-    "rMultiple": 0
+    "rMultiple": 0.06
   },
   {
     "id": "LUMIAUSDT-Market Structure-long-1781931088899-11893",
@@ -2224,12 +2680,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931088899,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11936,
-    "maxFavorableR": 0.09,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.17,
     "maxAdverseR": -0.12,
-    "rMultiple": 0.03
+    "rMultiple": 0.16
   },
   {
     "id": "BLESSUSDT-Market Structure-long-1781931088899-823",
@@ -2248,12 +2704,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931088899,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008182,
-    "maxFavorableR": 0.02,
+    "lastPrice": 0.008254,
+    "maxFavorableR": 0.03,
     "maxAdverseR": -0.05,
-    "rMultiple": -0.03
+    "rMultiple": 0.02
   },
   {
     "id": "GUAUSDT-Market Structure-long-1781931088899-88930",
@@ -2272,12 +2728,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931088899,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.8839,
+    "lastPrice": 0.8811,
     "maxFavorableR": 0,
     "maxAdverseR": -0.08,
-    "rMultiple": -0.03
+    "rMultiple": -0.04
   },
   {
     "id": "EDGEUSDT-Market Structure-short-1781931073989-40760",
@@ -2296,12 +2752,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931073989,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4078,
+    "lastPrice": 0.4067,
     "maxFavorableR": 0.08,
     "maxAdverseR": -0.03,
-    "rMultiple": 0
+    "rMultiple": 0.02
   },
   {
     "id": "PORTALUSDT-Market Structure-short-1781931073989-1643",
@@ -2320,12 +2776,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931073989,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.04,
     "maxAdverseR": -0.07,
-    "rMultiple": 0
+    "rMultiple": -0.03
   },
   {
     "id": "ESPORTSUSDT-Market Structure-long-1781931073989-3060",
@@ -2344,9 +2800,9 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931073989,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03075,
+    "lastPrice": 0.03073,
     "maxFavorableR": 0.01,
     "maxAdverseR": 0,
     "rMultiple": 0
@@ -2368,12 +2824,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931058958,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11936,
-    "maxFavorableR": 0.06,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.14,
     "maxAdverseR": -0.14,
-    "rMultiple": 0
+    "rMultiple": 0.13
   },
   {
     "id": "BICOUSDT-Market Structure-long-1781931044379-3397",
@@ -2392,12 +2848,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931044379,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.4,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.6,
     "maxAdverseR": -0.01,
-    "rMultiple": 0.4
+    "rMultiple": 0.49
   },
   {
     "id": "AXSUSDT-Market Structure-long-1781931044379-114300",
@@ -2416,12 +2872,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931044379,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.168,
+    "lastPrice": 1.152,
     "maxFavorableR": 0.46,
     "maxAdverseR": 0,
-    "rMultiple": 0.33
+    "rMultiple": 0.12
   },
   {
     "id": "GUAUSDT-Market Structure-long-1781931029497-88620",
@@ -2440,12 +2896,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931029497,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.8839,
+    "lastPrice": 0.8811,
     "maxFavorableR": 0,
     "maxAdverseR": -0.06,
-    "rMultiple": -0.01
+    "rMultiple": -0.03
   },
   {
     "id": "BICOUSDT-Market Structure-long-1781931029497-3383",
@@ -2464,12 +2920,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931029497,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.42,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.63,
     "maxAdverseR": 0,
-    "rMultiple": 0.42
+    "rMultiple": 0.52
   },
   {
     "id": "AXSUSDT-Market Structure-long-1781931029497-113900",
@@ -2514,11 +2970,11 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931014489,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.08154,
+    "lastPrice": 0.08153,
     "maxFavorableR": 0.02,
-    "maxAdverseR": -0.01,
+    "maxAdverseR": -0.02,
     "rMultiple": 0
   },
   {
@@ -2538,12 +2994,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931014489,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.36,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.57,
     "maxAdverseR": -0.04,
-    "rMultiple": 0.36
+    "rMultiple": 0.46
   },
   {
     "id": "EIGENUSDT-Market Structure-long-1781931006275-27710",
@@ -2562,12 +3018,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931006275,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2794,
+    "lastPrice": 0.2756,
     "maxFavorableR": 0.1,
     "maxAdverseR": -0.13,
-    "rMultiple": 0.09
+    "rMultiple": -0.06
   },
   {
     "id": "METUSDT-Market Structure-long-1781931006275-14780",
@@ -2586,12 +3042,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931006275,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.1458,
+    "lastPrice": 0.1462,
     "maxFavorableR": 0,
     "maxAdverseR": -0.11,
-    "rMultiple": -0.11
+    "rMultiple": -0.09
   },
   {
     "id": "CLOUSDT-Market Structure-long-1781931006275-23530",
@@ -2610,12 +3066,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931006275,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2352,
-    "maxFavorableR": 0,
+    "lastPrice": 0.23416,
+    "maxFavorableR": 0.01,
     "maxAdverseR": -0.08,
-    "rMultiple": 0
+    "rMultiple": -0.02
   },
   {
     "id": "PORTALUSDT-Market Structure-short-1781931006275-1637",
@@ -2634,12 +3090,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931006275,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.01,
     "maxAdverseR": -0.1,
-    "rMultiple": -0.02
+    "rMultiple": -0.05
   },
   {
     "id": "ESPORTSUSDT-Market Structure-long-1781931006275-3072",
@@ -2658,9 +3114,9 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931006275,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03075,
+    "lastPrice": 0.03073,
     "maxFavorableR": 0,
     "maxAdverseR": -0.01,
     "rMultiple": 0
@@ -2682,12 +3138,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781931006275,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.3,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.5,
     "maxAdverseR": -0.11,
-    "rMultiple": 0.3
+    "rMultiple": 0.39
   },
   {
     "id": "AXSUSDT-Market Structure-long-1781931006275-113200",
@@ -2732,12 +3188,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930999695,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11936,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.05,
     "maxAdverseR": -0.1,
-    "rMultiple": -0.03
+    "rMultiple": 0.04
   },
   {
     "id": "EIGENUSDT-MA Crossover-long-1781930999695-27690",
@@ -2756,12 +3212,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930999695,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2794,
+    "lastPrice": 0.2756,
     "maxFavorableR": 0.04,
     "maxAdverseR": -0.04,
-    "rMultiple": 0.03
+    "rMultiple": -0.02
   },
   {
     "id": "EPICUSDT-Market Structure-long-1781930985294-40440",
@@ -2780,12 +3236,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930985294,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.3881,
+    "lastPrice": 0.3864,
     "maxFavorableR": 0,
-    "maxAdverseR": -0.2,
-    "rMultiple": -0.2
+    "maxAdverseR": -0.22,
+    "rMultiple": -0.22
   },
   {
     "id": "BLESSUSDT-Weekly Swing-long-1781930985294-823",
@@ -2804,12 +3260,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930985294,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008182,
+    "lastPrice": 0.008254,
     "maxFavorableR": 0.02,
     "maxAdverseR": -0.04,
-    "rMultiple": -0.03
+    "rMultiple": 0.01
   },
   {
     "id": "PORTALUSDT-Funding Rate Edge-long-1781930985294-1636",
@@ -2828,12 +3284,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930985294,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.1,
     "maxAdverseR": -0.01,
-    "rMultiple": 0.03
+    "rMultiple": 0.06
   },
   {
     "id": "KATUSDT-Market Structure-short-1781930962287-584",
@@ -2852,12 +3308,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930962287,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.005866,
+    "lastPrice": 0.005872,
     "maxFavorableR": 0,
     "maxAdverseR": -0.18,
-    "rMultiple": -0.05
+    "rMultiple": -0.06
   },
   {
     "id": "EPICUSDT-Market Structure-long-1781930962287-40200",
@@ -2876,12 +3332,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930962287,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.3881,
+    "lastPrice": 0.3864,
     "maxFavorableR": 0.01,
-    "maxAdverseR": -0.17,
-    "rMultiple": -0.17
+    "maxAdverseR": -0.19,
+    "rMultiple": -0.19
   },
   {
     "id": "BELUSDT-Funding Rate Edge-long-1781930962287-12178",
@@ -2900,12 +3356,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930962287,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.12214,
-    "maxFavorableR": 0.02,
+    "lastPrice": 0.1236,
+    "maxFavorableR": 0.12,
     "maxAdverseR": -0.1,
-    "rMultiple": 0.02
+    "rMultiple": 0.12
   },
   {
     "id": "PORTALUSDT-Funding Rate Edge-long-1781930950585-1642",
@@ -2924,12 +3380,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930950585,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.08,
     "maxAdverseR": -0.03,
-    "rMultiple": 0
+    "rMultiple": 0.03
   },
   {
     "id": "EIGENUSDT-MA Crossover-long-1781930942585-27570",
@@ -2948,12 +3404,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930942585,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2794,
+    "lastPrice": 0.2756,
     "maxFavorableR": 0.05,
     "maxAdverseR": -0.03,
-    "rMultiple": 0.05
+    "rMultiple": 0
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781930927538-3488",
@@ -2972,12 +3428,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930927538,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.25,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.45,
     "maxAdverseR": -0.16,
-    "rMultiple": 0.25
+    "rMultiple": 0.34
   },
   {
     "id": "TACUSDT-Weekly Swing-long-1781930912592-2123",
@@ -2996,11 +3452,11 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930912592,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.021197,
+    "lastPrice": 0.021187,
     "maxFavorableR": 0,
-    "maxAdverseR": -0.02,
+    "maxAdverseR": -0.04,
     "rMultiple": -0.01
   },
   {
@@ -3020,12 +3476,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930912592,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.1458,
+    "lastPrice": 0.1462,
     "maxFavorableR": 0,
     "maxAdverseR": -0.09,
-    "rMultiple": -0.09
+    "rMultiple": -0.07
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781930912592-3471",
@@ -3044,12 +3500,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930912592,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.28,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.48,
     "maxAdverseR": -0.13,
-    "rMultiple": 0.28
+    "rMultiple": 0.37
   },
   {
     "id": "KERNELUSDT-Market Structure-long-1781930898597-4810",
@@ -3068,12 +3524,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930898597,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.04833,
-    "maxFavorableR": 0.06,
+    "lastPrice": 0.04831,
+    "maxFavorableR": 0.09,
     "maxAdverseR": 0,
-    "rMultiple": 0.06
+    "rMultiple": 0.05
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781930898597-3452",
@@ -3092,12 +3548,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930898597,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.31,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.52,
     "maxAdverseR": -0.1,
-    "rMultiple": 0.31
+    "rMultiple": 0.4
   },
   {
     "id": "LUMIAUSDT-MA Crossover-long-1781930882603-12113",
@@ -3116,12 +3572,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930882603,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11936,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.01,
     "maxAdverseR": -0.14,
-    "rMultiple": -0.06
+    "rMultiple": 0
   },
   {
     "id": "ESPORTSUSDT-Funding Rate Edge-short-1781930882603-3063",
@@ -3140,9 +3596,9 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930882603,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03075,
+    "lastPrice": 0.03073,
     "maxFavorableR": 0,
     "maxAdverseR": -0.01,
     "rMultiple": 0
@@ -3164,12 +3620,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930861518,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.34,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.55,
     "maxAdverseR": -0.07,
-    "rMultiple": 0.34
+    "rMultiple": 0.43
   },
   {
     "id": "USUSDT-MA Crossover-long-1781930857611-1364",
@@ -3188,12 +3644,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.013715,
+    "lastPrice": 0.013664,
     "maxFavorableR": 0.02,
     "maxAdverseR": 0,
-    "rMultiple": 0.02
+    "rMultiple": 0.01
   },
   {
     "id": "ASRUSDT-Market Structure-long-1781930857611-109600",
@@ -3212,12 +3668,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 1.095,
-    "maxFavorableR": 0.02,
+    "lastPrice": 1.098,
+    "maxFavorableR": 0.03,
     "maxAdverseR": -0.02,
-    "rMultiple": -0.01
+    "rMultiple": 0.02
   },
   {
     "id": "LABUSDT-MA Crossover-long-1781930857611-1182600",
@@ -3236,12 +3692,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 11.785,
+    "lastPrice": 11.715,
     "maxFavorableR": 0,
     "maxAdverseR": -0.06,
-    "rMultiple": -0.01
+    "rMultiple": -0.03
   },
   {
     "id": "ORDIUSDT-Trend Following-short-1781930857611-341800",
@@ -3260,12 +3716,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 3.445,
+    "lastPrice": 3.434,
     "maxFavorableR": 0,
     "maxAdverseR": -0.15,
-    "rMultiple": -0.13
+    "rMultiple": -0.07
   },
   {
     "id": "GPSUSDT-Weekly Swing-long-1781930857611-935",
@@ -3284,12 +3740,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.00936,
+    "lastPrice": 0.009376,
     "maxFavorableR": 0.05,
     "maxAdverseR": 0,
-    "rMultiple": 0.01
+    "rMultiple": 0.03
   },
   {
     "id": "EVAAUSDT-Weekly Swing-long-1781930857611-74030",
@@ -3308,12 +3764,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.7429,
-    "maxFavorableR": 0.05,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.08,
     "maxAdverseR": 0,
-    "rMultiple": 0.01
+    "rMultiple": 0.08
   },
   {
     "id": "TACUSDT-Weekly Swing-long-1781930857611-2133",
@@ -3332,11 +3788,11 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.021197,
+    "lastPrice": 0.021187,
     "maxFavorableR": 0,
-    "maxAdverseR": -0.05,
+    "maxAdverseR": -0.07,
     "rMultiple": -0.04
   },
   {
@@ -3356,12 +3812,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.12214,
-    "maxFavorableR": 0.09,
+    "lastPrice": 0.1236,
+    "maxFavorableR": 0.19,
     "maxAdverseR": -0.04,
-    "rMultiple": 0.09
+    "rMultiple": 0.19
   },
   {
     "id": "CLOUSDT-Weekly Swing-long-1781930857611-23714",
@@ -3380,12 +3836,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2352,
+    "lastPrice": 0.23416,
     "maxFavorableR": 0,
     "maxAdverseR": -0.09,
-    "rMultiple": -0.03
+    "rMultiple": -0.05
   },
   {
     "id": "HOMEUSDT-Market Structure-long-1781930857611-2348",
@@ -3404,12 +3860,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.02355,
-    "maxFavorableR": 0.02,
-    "maxAdverseR": -0.03,
-    "rMultiple": 0.02
+    "lastPrice": 0.02328,
+    "maxFavorableR": 0.04,
+    "maxAdverseR": -0.07,
+    "rMultiple": -0.05
   },
   {
     "id": "ESPORTSUSDT-Funding Rate Edge-short-1781930857611-3075",
@@ -3428,9 +3884,9 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03075,
+    "lastPrice": 0.03073,
     "maxFavorableR": 0.01,
     "maxAdverseR": 0,
     "rMultiple": 0
@@ -3452,12 +3908,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930857611,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.42,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.62,
     "maxAdverseR": 0,
-    "rMultiple": 0.42
+    "rMultiple": 0.51
   },
   {
     "id": "RIFUSDT-Weekly Swing-long-1781930806506-10117",
@@ -3476,12 +3932,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930806506,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10293,
-    "maxFavorableR": 0.1,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.11,
     "maxAdverseR": 0,
-    "rMultiple": 0.09
+    "rMultiple": 0.11
   },
   {
     "id": "LUMIAUSDT-MA Crossover-long-1781930806506-12075",
@@ -3500,12 +3956,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930806506,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11936,
-    "maxFavorableR": 0,
+    "lastPrice": 0.1212,
+    "maxFavorableR": 0.02,
     "maxAdverseR": -0.13,
-    "rMultiple": -0.05
+    "rMultiple": 0.02
   },
   {
     "id": "EIGENUSDT-MA Crossover-long-1781930806506-27430",
@@ -3524,12 +3980,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930806506,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2794,
+    "lastPrice": 0.2756,
     "maxFavorableR": 0.07,
     "maxAdverseR": -0.01,
-    "rMultiple": 0.07
+    "rMultiple": 0.02
   },
   {
     "id": "BLESSUSDT-Weekly Swing-long-1781930806506-826",
@@ -3548,12 +4004,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930806506,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008182,
-    "maxFavorableR": 0,
+    "lastPrice": 0.008254,
+    "maxFavorableR": 0.01,
     "maxAdverseR": -0.06,
-    "rMultiple": -0.05
+    "rMultiple": 0
   },
   {
     "id": "GUAUSDT-Trend Following-short-1781930806506-88140",
@@ -3572,12 +4028,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930806506,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.8839,
+    "lastPrice": 0.8811,
     "maxFavorableR": 0.05,
     "maxAdverseR": -0.02,
-    "rMultiple": -0.02
+    "rMultiple": 0
   },
   {
     "id": "METUSDT-Funding Rate Edge-long-1781930806506-14700",
@@ -3596,12 +4052,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930806506,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.1458,
+    "lastPrice": 0.1462,
     "maxFavorableR": 0,
     "maxAdverseR": -0.07,
-    "rMultiple": -0.07
+    "rMultiple": -0.04
   },
   {
     "id": "BELUSDT-Funding Rate Edge-long-1781930806506-12117",
@@ -3620,12 +4076,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930806506,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.12214,
-    "maxFavorableR": 0.06,
+    "lastPrice": 0.1236,
+    "maxFavorableR": 0.16,
     "maxAdverseR": -0.06,
-    "rMultiple": 0.06
+    "rMultiple": 0.16
   },
   {
     "id": "PORTALUSDT-Funding Rate Edge-long-1781930806506-1656",
@@ -3644,12 +4100,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930806506,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.02,
     "maxAdverseR": -0.09,
-    "rMultiple": -0.05
+    "rMultiple": -0.02
   },
   {
     "id": "BICOUSDT-Funding Rate Edge-long-1781930806506-3374",
@@ -3668,12 +4124,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930806506,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.45,
+    "lastPrice": 0.03697,
+    "maxFavorableR": 0.66,
     "maxAdverseR": 0,
-    "rMultiple": 0.45
+    "rMultiple": 0.54
   },
   {
     "id": "WCTUSDT-Market Structure-short-1781930788174-4920",
@@ -3692,12 +4148,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930788174,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.0489,
+    "lastPrice": 0.04933,
     "maxFavorableR": 0.07,
-    "maxAdverseR": 0,
-    "rMultiple": 0.07
+    "maxAdverseR": -0.06,
+    "rMultiple": -0.03
   },
   {
     "id": "BLESSUSDT-Market Structure-long-1781930788174-826",
@@ -3716,12 +4172,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930788174,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008182,
-    "maxFavorableR": 0,
+    "lastPrice": 0.008254,
+    "maxFavorableR": 0.01,
     "maxAdverseR": -0.07,
-    "rMultiple": -0.06
+    "rMultiple": 0
   },
   {
     "id": "BICOUSDT-Market Structure-long-1781930773473-3339",
@@ -3737,15 +4193,17 @@
     "leverage": 3,
     "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
     "source": "dashboard",
-    "status": "open",
-    "outcome": "tracking",
+    "status": "closed",
+    "outcome": "win",
     "createdAt": 1781930773473,
     "updatedAt": 1781931600000,
-    "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.51,
+    "firstHitAt": 1781931600000,
+    "lastPrice": 0.03655,
+    "maxFavorableR": 0.54,
     "maxAdverseR": 0,
-    "rMultiple": 0.51
+    "rMultiple": 1,
+    "hitLevel": "tp1",
+    "exitPrice": 0.037804286517135584
   },
   {
     "id": "BLESSUSDT-Market Structure-long-1781930727901-830",
@@ -3764,12 +4222,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930727901,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008182,
+    "lastPrice": 0.008254,
     "maxFavorableR": 0,
     "maxAdverseR": -0.1,
-    "rMultiple": -0.09
+    "rMultiple": -0.03
   },
   {
     "id": "GPSUSDT-Market Structure-long-1781930713993-939",
@@ -3788,12 +4246,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930713993,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.00936,
+    "lastPrice": 0.009376,
     "maxFavorableR": 0.01,
     "maxAdverseR": -0.05,
-    "rMultiple": -0.04
+    "rMultiple": -0.02
   },
   {
     "id": "EVAAUSDT-Market Structure-long-1781930713993-74420",
@@ -3812,12 +4270,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930713993,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.7429,
-    "maxFavorableR": 0.04,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.07,
     "maxAdverseR": -0.02,
-    "rMultiple": -0.01
+    "rMultiple": 0.07
   },
   {
     "id": "BICOUSDT-Market Structure-long-1781930713993-3325",
@@ -3833,15 +4291,17 @@
     "leverage": 3,
     "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
     "source": "dashboard",
-    "status": "open",
-    "outcome": "tracking",
+    "status": "closed",
+    "outcome": "win",
     "createdAt": 1781930713993,
     "updatedAt": 1781931600000,
-    "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.54,
+    "firstHitAt": 1781931600000,
+    "lastPrice": 0.03655,
+    "maxFavorableR": 0.56,
     "maxAdverseR": 0,
-    "rMultiple": 0.54
+    "rMultiple": 1,
+    "hitLevel": "tp1",
+    "exitPrice": 0.03766428651713558
   },
   {
     "id": "PORTALUSDT-Market Structure-short-1781930683853-1653",
@@ -3860,12 +4320,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930683853,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.08,
     "maxAdverseR": -0.07,
-    "rMultiple": 0.04
+    "rMultiple": 0.01
   },
   {
     "id": "BICOUSDT-Market Structure-long-1781930683853-3303",
@@ -3881,15 +4341,17 @@
     "leverage": 3,
     "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
     "source": "dashboard",
-    "status": "open",
-    "outcome": "tracking",
+    "status": "closed",
+    "outcome": "win",
     "createdAt": 1781930683853,
     "updatedAt": 1781931600000,
-    "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.57,
+    "firstHitAt": 1781931600000,
+    "lastPrice": 0.03401,
+    "maxFavorableR": 0.6,
     "maxAdverseR": 0,
-    "rMultiple": 0.57
+    "rMultiple": 1,
+    "hitLevel": "tp1",
+    "exitPrice": 0.03744428651713558
   },
   {
     "id": "RIFUSDT-Market Structure-long-1781930667969-10127",
@@ -3908,12 +4370,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930667969,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10293,
-    "maxFavorableR": 0.11,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.14,
     "maxAdverseR": -0.03,
-    "rMultiple": 0.11
+    "rMultiple": 0.13
   },
   {
     "id": "HOMEUSDT-Market Structure-long-1781930653243-2339",
@@ -3932,12 +4394,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930653243,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.02355,
-    "maxFavorableR": 0.04,
-    "maxAdverseR": -0.02,
-    "rMultiple": 0.04
+    "lastPrice": 0.02328,
+    "maxFavorableR": 0.06,
+    "maxAdverseR": -0.04,
+    "rMultiple": -0.03
   },
   {
     "id": "RIFUSDT-Market Structure-long-1781930638235-10084",
@@ -3956,12 +4418,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930638235,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10293,
-    "maxFavorableR": 0.14,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.16,
     "maxAdverseR": 0,
-    "rMultiple": 0.13
+    "rMultiple": 0.16
   },
   {
     "id": "HOMEUSDT-Market Structure-long-1781930638235-2328",
@@ -3980,12 +4442,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930638235,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.02355,
-    "maxFavorableR": 0.07,
-    "maxAdverseR": 0,
-    "rMultiple": 0.07
+    "lastPrice": 0.02328,
+    "maxFavorableR": 0.09,
+    "maxAdverseR": -0.02,
+    "rMultiple": 0
   },
   {
     "id": "ORDIUSDT-Market Structure-long-1781930628754-341700",
@@ -4004,12 +4466,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930628754,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 3.445,
+    "lastPrice": 3.434,
     "maxFavorableR": 0.13,
     "maxAdverseR": 0,
-    "rMultiple": 0.1
+    "rMultiple": 0.06
   },
   {
     "id": "WCTUSDT-Market Structure-short-1781930628754-4938",
@@ -4028,12 +4490,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930628754,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.0489,
+    "lastPrice": 0.04933,
     "maxFavorableR": 0.11,
-    "maxAdverseR": 0,
-    "rMultiple": 0.1
+    "maxAdverseR": -0.02,
+    "rMultiple": 0.01
   },
   {
     "id": "BLESSUSDT-Market Structure-long-1781930628754-836",
@@ -4052,12 +4514,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930628754,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008182,
+    "lastPrice": 0.008254,
     "maxFavorableR": 0,
     "maxAdverseR": -0.15,
-    "rMultiple": -0.14
+    "rMultiple": -0.08
   },
   {
     "id": "AXSUSDT-Market Structure-long-1781930628754-112200",
@@ -4102,12 +4564,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930548793,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4078,
+    "lastPrice": 0.4067,
     "maxFavorableR": 0.05,
-    "maxAdverseR": -0.11,
-    "rMultiple": -0.09
+    "maxAdverseR": -0.12,
+    "rMultiple": -0.06
   },
   {
     "id": "METUSDT-Market Structure-long-1781930548793-14720",
@@ -4126,12 +4588,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930548793,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.1458,
+    "lastPrice": 0.1462,
     "maxFavorableR": 0.03,
     "maxAdverseR": -0.08,
-    "rMultiple": -0.08
+    "rMultiple": -0.05
   },
   {
     "id": "CLOUSDT-Market Structure-long-1781930548793-23731",
@@ -4150,12 +4612,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930548793,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2352,
+    "lastPrice": 0.23416,
     "maxFavorableR": 0.01,
     "maxAdverseR": -0.12,
-    "rMultiple": -0.04
+    "rMultiple": -0.06
   },
   {
     "id": "LABUSDT-Market Structure-long-1781930534985-1182300",
@@ -4174,12 +4636,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930534985,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 11.785,
+    "lastPrice": 11.715,
     "maxFavorableR": 0.04,
     "maxAdverseR": -0.07,
-    "rMultiple": -0.01
+    "rMultiple": -0.04
   },
   {
     "id": "EDGEUSDT-Market Structure-short-1781930528149-40600",
@@ -4198,12 +4660,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930528149,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4078,
+    "lastPrice": 0.4067,
     "maxFavorableR": 0.1,
     "maxAdverseR": -0.07,
-    "rMultiple": -0.04
+    "rMultiple": -0.02
   },
   {
     "id": "RIFUSDT-Market Structure-long-1781930528149-10210",
@@ -4222,12 +4684,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930528149,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10293,
-    "maxFavorableR": 0.06,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.08,
     "maxAdverseR": -0.08,
-    "rMultiple": 0.05
+    "rMultiple": 0.08
   },
   {
     "id": "BICOUSDT-Market Structure-long-1781930528149-3313",
@@ -4243,15 +4705,17 @@
     "leverage": 3,
     "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
     "source": "dashboard",
-    "status": "open",
-    "outcome": "tracking",
+    "status": "closed",
+    "outcome": "win",
     "createdAt": 1781930528149,
     "updatedAt": 1781931600000,
-    "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.56,
+    "firstHitAt": 1781931600000,
+    "lastPrice": 0.03401,
+    "maxFavorableR": 0.58,
     "maxAdverseR": 0,
-    "rMultiple": 0.56
+    "rMultiple": 1,
+    "hitLevel": "tp1",
+    "exitPrice": 0.03754428651713558
   },
   {
     "id": "LABUSDT-Market Structure-long-1781930471752-1176800",
@@ -4270,12 +4734,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930471752,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 11.785,
+    "lastPrice": 11.715,
     "maxFavorableR": 0.06,
     "maxAdverseR": -0.05,
-    "rMultiple": 0.01
+    "rMultiple": -0.02
   },
   {
     "id": "EVAAUSDT-Market Structure-long-1781930454230-74700",
@@ -4294,12 +4758,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930454230,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.7429,
-    "maxFavorableR": 0.04,
+    "lastPrice": 0.7568,
+    "maxFavorableR": 0.06,
     "maxAdverseR": -0.04,
-    "rMultiple": -0.02
+    "rMultiple": 0.06
   },
   {
     "id": "ORDIUSDT-Market Structure-long-1781930446588-342800",
@@ -4318,12 +4782,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 3.445,
+    "lastPrice": 3.434,
     "maxFavorableR": 0.09,
     "maxAdverseR": -0.03,
-    "rMultiple": 0.06
+    "rMultiple": 0.02
   },
   {
     "id": "EDGEUSDT-Market Structure-short-1781930446588-40280",
@@ -4342,12 +4806,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4078,
+    "lastPrice": 0.4067,
     "maxFavorableR": 0.02,
-    "maxAdverseR": -0.15,
-    "rMultiple": -0.13
+    "maxAdverseR": -0.16,
+    "rMultiple": -0.1
   },
   {
     "id": "RIFUSDT-Market Structure-long-1781930446588-10168",
@@ -4366,12 +4830,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10293,
-    "maxFavorableR": 0.09,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.11,
     "maxAdverseR": -0.05,
-    "rMultiple": 0.08
+    "rMultiple": 0.11
   },
   {
     "id": "GPSUSDT-Market Structure-long-1781930446588-947",
@@ -4390,12 +4854,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.00936,
+    "lastPrice": 0.009376,
     "maxFavorableR": 0,
     "maxAdverseR": -0.16,
-    "rMultiple": -0.14
+    "rMultiple": -0.12
   },
   {
     "id": "AEROUSDT-Market Structure-long-1781930446588-49370",
@@ -4414,12 +4878,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4979,
-    "maxFavorableR": 0.09,
+    "lastPrice": 0.5,
+    "maxFavorableR": 0.14,
     "maxAdverseR": -0.02,
-    "rMultiple": 0.08
+    "rMultiple": 0.13
   },
   {
     "id": "LUMIAUSDT-Market Structure-long-1781930446588-11996",
@@ -4438,12 +4902,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11936,
+    "lastPrice": 0.1212,
     "maxFavorableR": 0.11,
     "maxAdverseR": -0.19,
-    "rMultiple": -0.04
+    "rMultiple": 0.09
   },
   {
     "id": "BLESSUSDT-Market Structure-long-1781930446588-834",
@@ -4462,12 +4926,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008182,
+    "lastPrice": 0.008254,
     "maxFavorableR": 0,
     "maxAdverseR": -0.13,
-    "rMultiple": -0.12
+    "rMultiple": -0.06
   },
   {
     "id": "METUSDT-Market Structure-long-1781930446588-14660",
@@ -4486,12 +4950,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.1458,
+    "lastPrice": 0.1462,
     "maxFavorableR": 0.07,
     "maxAdverseR": -0.04,
-    "rMultiple": -0.04
+    "rMultiple": -0.02
   },
   {
     "id": "CLOUSDT-Market Structure-long-1781930446588-23630",
@@ -4510,12 +4974,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2352,
+    "lastPrice": 0.23416,
     "maxFavorableR": 0.03,
     "maxAdverseR": -0.1,
-    "rMultiple": -0.02
+    "rMultiple": -0.04
   },
   {
     "id": "PORTALUSDT-Market Structure-short-1781930446588-1648",
@@ -4534,12 +4998,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.06,
     "maxAdverseR": -0.09,
-    "rMultiple": 0.02
+    "rMultiple": -0.01
   },
   {
     "id": "ESPORTSUSDT-Market Structure-long-1781930446588-3085",
@@ -4558,9 +5022,9 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930446588,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03075,
+    "lastPrice": 0.03073,
     "maxFavorableR": 0,
     "maxAdverseR": -0.01,
     "rMultiple": 0
@@ -4579,15 +5043,17 @@
     "leverage": 3,
     "reason": "Bullish structure (HH + HL). Bullish candle confirmation. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
     "source": "dashboard",
-    "status": "open",
-    "outcome": "tracking",
+    "status": "closed",
+    "outcome": "win",
     "createdAt": 1781930446588,
     "updatedAt": 1781931600000,
-    "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.59,
+    "firstHitAt": 1781931600000,
+    "lastPrice": 0.03401,
+    "maxFavorableR": 0.62,
     "maxAdverseR": 0,
-    "rMultiple": 0.59
+    "rMultiple": 1,
+    "hitLevel": "tp1",
+    "exitPrice": 0.03732428651713558
   },
   {
     "id": "KATUSDT-Market Structure-short-1781930439207-587",
@@ -4606,12 +5072,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.005866,
+    "lastPrice": 0.005872,
     "maxFavorableR": 0.05,
     "maxAdverseR": -0.13,
-    "rMultiple": 0
+    "rMultiple": -0.01
   },
   {
     "id": "RIFUSDT-Weekly Swing-long-1781930439207-10179",
@@ -4630,12 +5096,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.10293,
-    "maxFavorableR": 0.06,
+    "lastPrice": 0.10334,
+    "maxFavorableR": 0.08,
     "maxAdverseR": -0.05,
-    "rMultiple": 0.06
+    "rMultiple": 0.08
   },
   {
     "id": "GPSUSDT-Weekly Swing-long-1781930439207-948",
@@ -4654,12 +5120,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.00936,
+    "lastPrice": 0.009376,
     "maxFavorableR": 0,
     "maxAdverseR": -0.14,
-    "rMultiple": -0.12
+    "rMultiple": -0.11
   },
   {
     "id": "AEROUSDT-Weekly Swing-long-1781930439207-49390",
@@ -4678,12 +5144,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.4979,
-    "maxFavorableR": 0.07,
+    "lastPrice": 0.5,
+    "maxFavorableR": 0.11,
     "maxAdverseR": -0.02,
-    "rMultiple": 0.06
+    "rMultiple": 0.1
   },
   {
     "id": "LUMIAUSDT-Weekly Swing-long-1781930439207-11999",
@@ -4702,12 +5168,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.11936,
+    "lastPrice": 0.1212,
     "maxFavorableR": 0.08,
     "maxAdverseR": -0.15,
-    "rMultiple": -0.04
+    "rMultiple": 0.07
   },
   {
     "id": "EIGENUSDT-MA Crossover-long-1781930439207-27230",
@@ -4726,12 +5192,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2794,
+    "lastPrice": 0.2756,
     "maxFavorableR": 0.1,
     "maxAdverseR": -0.01,
-    "rMultiple": 0.09
+    "rMultiple": 0.04
   },
   {
     "id": "BLESSUSDT-Weekly Swing-long-1781930439207-833",
@@ -4750,12 +5216,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.008182,
+    "lastPrice": 0.008254,
     "maxFavorableR": 0,
     "maxAdverseR": -0.1,
-    "rMultiple": -0.09
+    "rMultiple": -0.05
   },
   {
     "id": "GUAUSDT-Market Structure-long-1781930439207-88340",
@@ -4774,12 +5240,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.8839,
+    "lastPrice": 0.8811,
     "maxFavorableR": 0.04,
     "maxAdverseR": -0.05,
-    "rMultiple": 0
+    "rMultiple": -0.01
   },
   {
     "id": "METUSDT-Funding Rate Edge-long-1781930439207-14650",
@@ -4798,12 +5264,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.1458,
+    "lastPrice": 0.1462,
     "maxFavorableR": 0.07,
     "maxAdverseR": -0.04,
-    "rMultiple": -0.04
+    "rMultiple": -0.02
   },
   {
     "id": "BELUSDT-Funding Rate Edge-long-1781930439207-12041",
@@ -4822,12 +5288,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.12214,
-    "maxFavorableR": 0.11,
+    "lastPrice": 0.1236,
+    "maxFavorableR": 0.21,
     "maxAdverseR": -0.06,
-    "rMultiple": 0.11
+    "rMultiple": 0.21
   },
   {
     "id": "CLOUSDT-Weekly Swing-long-1781930439207-23623",
@@ -4846,12 +5312,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.2352,
+    "lastPrice": 0.23416,
     "maxFavorableR": 0.03,
     "maxAdverseR": -0.08,
-    "rMultiple": -0.02
+    "rMultiple": -0.03
   },
   {
     "id": "PORTALUSDT-Funding Rate Edge-long-1781930439207-1651",
@@ -4870,12 +5336,12 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.01643,
+    "lastPrice": 0.0165,
     "maxFavorableR": 0.07,
     "maxAdverseR": -0.07,
-    "rMultiple": -0.03
+    "rMultiple": 0
   },
   {
     "id": "ESPORTSUSDT-Funding Rate Edge-short-1781930439207-3087",
@@ -4894,9 +5360,9 @@
     "status": "open",
     "outcome": "tracking",
     "createdAt": 1781930439207,
-    "updatedAt": 1781931600000,
+    "updatedAt": 1781932500000,
     "firstHitAt": null,
-    "lastPrice": 0.03075,
+    "lastPrice": 0.03073,
     "maxFavorableR": 0.01,
     "maxAdverseR": 0,
     "rMultiple": 0
@@ -4915,15 +5381,17 @@
     "leverage": 3,
     "reason": "Uptrend (above 200 MA). ⚡ Negative funding in uptrend — squeeze potential! Open interest confirmed. Targets adjusted to nearby structure/volatility. TP1 Stretch, TP2 Stretch.",
     "source": "dashboard",
-    "status": "open",
-    "outcome": "tracking",
+    "status": "closed",
+    "outcome": "win",
     "createdAt": 1781930439207,
     "updatedAt": 1781931600000,
-    "firstHitAt": null,
-    "lastPrice": 0.03641,
-    "maxFavorableR": 0.6,
+    "firstHitAt": 1781931600000,
+    "lastPrice": 0.03401,
+    "maxFavorableR": 0.62,
     "maxAdverseR": 0,
-    "rMultiple": 0.6
+    "rMultiple": 1,
+    "hitLevel": "tp1",
+    "exitPrice": 0.03731428651713558
   },
   {
     "id": "AXSUSDT-Market Structure-long-1781930439207-112800",

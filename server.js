@@ -13,6 +13,8 @@ const BINANCE_REST_HOSTS = [
 const BINANCE_WS = 'wss://fstream.binance.com/ws';
 const REPORT_DIR = path.join(ROOT, 'reports');
 const JOURNAL_FILE = path.join(REPORT_DIR, 'signal-journal.json');
+const proxyWarningState = new Map();
+const PROXY_WARNING_INTERVAL_MS = 30000;
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -66,7 +68,7 @@ async function proxyBinance(url, res) {
       return res.end(body);
     } catch (error) {
       lastError = error;
-      console.warn('[binance proxy]', host, error.message || error);
+      logProxyWarning(host, endpoint, error);
     }
   }
 
@@ -74,6 +76,22 @@ async function proxyBinance(url, res) {
     error: 'Binance REST proxy unavailable',
     detail: lastError?.message || 'Network error',
   });
+}
+
+function logProxyWarning(host, endpoint, error) {
+  const key = `${host}:${endpoint}`;
+  const now = Date.now();
+  const state = proxyWarningState.get(key) || { count: 0, lastLog: 0 };
+  state.count += 1;
+
+  if (now - state.lastLog >= PROXY_WARNING_INTERVAL_MS) {
+    const repeated = state.count > 1 ? ` (${state.count} failures in the last window)` : '';
+    console.warn('[binance proxy]', host, endpoint, error.message || error, repeated);
+    state.count = 0;
+    state.lastLog = now;
+  }
+
+  proxyWarningState.set(key, state);
 }
 
 function streamBinance(url, req, res) {
