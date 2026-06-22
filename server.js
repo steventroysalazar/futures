@@ -15,6 +15,13 @@ const REPORT_DIR = path.join(ROOT, 'reports');
 const JOURNAL_FILE = path.join(REPORT_DIR, 'signal-journal.json');
 const proxyWarningState = new Map();
 const PROXY_WARNING_INTERVAL_MS = 30000;
+const NEWS_CACHE_MS = 5 * 60 * 1000;
+const NEWS_FEEDS = [
+  { name: 'CoinDesk', url: 'https://www.coindesk.com/arc/outboundfeeds/rss/' },
+  { name: 'Cointelegraph', url: 'https://cointelegraph.com/rss' },
+  { name: 'Decrypt', url: 'https://decrypt.co/feed' },
+];
+let newsCache = { updatedAt: 0, items: [] };
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -37,6 +44,7 @@ const server = http.createServer(async (req, res) => {
     if (url.pathname === '/api/binance') return await proxyBinance(url, res);
     if (url.pathname === '/api/stream') return streamBinance(url, req, res);
     if (url.pathname === '/api/journal') return journalApi(req, res);
+    if (url.pathname === '/api/news') return await newsApi(res);
     return serveStatic(url.pathname, res);
   } catch (error) {
     console.error('[server]', error);
@@ -76,6 +84,85 @@ async function proxyBinance(url, res) {
     error: 'Binance REST proxy unavailable',
     detail: lastError?.message || 'Network error',
   });
+}
+
+async function newsApi(res) {
+  const now = Date.now();
+  if (newsCache.items.length && now - newsCache.updatedAt < NEWS_CACHE_MS) {
+    return sendJson(res, 200, newsCache);
+  }
+
+  const settled = await Promise.allSettled(NEWS_FEEDS.map(async feed => {
+    const response = await fetch(feed.url, {
+      signal: AbortSignal.timeout(9000),
+      headers: {
+        'User-Agent': 'FuturesEdge/1.0 (+local dashboard)',
+        Accept: 'application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
+      },
+    });
+    if (!response.ok) throw new Error(`${feed.name} ${response.status}`);
+    return parseFeed(await response.text(), feed.name);
+  }));
+
+  const items = settled
+    .flatMap(result => result.status === 'fulfilled' ? result.value : [])
+    .filter(item => item.title && item.link)
+    .sort((a, b) => b.publishedAt - a.publishedAt)
+    .slice(0, 60);
+
+  settled
+    .filter(result => result.status === 'rejected')
+    .forEach(result => console.warn('[news]', result.reason.message || result.reason));
+
+  newsCache = { updatedAt: now, items };
+  sendJson(res, 200, newsCache);
+}
+
+function parseFeed(xml, source) {
+  const blocks = xml.match(/<item[\s\S]*?<\/item>/gi) || xml.match(/<entry[\s\S]*?<\/entry>/gi) || [];
+  return blocks.map(block => {
+    const title = cleanXmlText(readXmlTag(block, 'title'));
+    const link = cleanXmlText(readXmlTag(block, 'link')) || readAtomLink(block);
+    const description = cleanXmlText(readXmlTag(block, 'description') || readXmlTag(block, 'summary') || readXmlTag(block, 'content:encoded'));
+    const dateText = cleanXmlText(readXmlTag(block, 'pubDate') || readXmlTag(block, 'published') || readXmlTag(block, 'updated'));
+    const parsedDate = dateText ? Date.parse(dateText) : NaN;
+    return {
+      source,
+      title,
+      link,
+      description: description.slice(0, 220),
+      publishedAt: Number.isFinite(parsedDate) ? parsedDate : Date.now(),
+    };
+  });
+}
+
+function readXmlTag(block, tag) {
+  const escaped = tag.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const match = block.match(new RegExp(`<${escaped}[^>]*>([\\s\\S]*?)<\\/${escaped}>`, 'i'));
+  return match ? match[1] : '';
+}
+
+function readAtomLink(block) {
+  const match = block.match(/<link[^>]+href=["']([^"']+)["'][^>]*>/i);
+  return match ? cleanXmlText(match[1]) : '';
+}
+
+function cleanXmlText(value) {
+  return decodeHtml(String(value || '')
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim());
+}
+
+function decodeHtml(value) {
+  return value
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
 }
 
 function logProxyWarning(host, endpoint, error) {

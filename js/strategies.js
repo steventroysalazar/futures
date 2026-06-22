@@ -584,11 +584,82 @@ const Strategies = (() => {
     }
 
     const targets = realisticTargets(candles, result.signal, result.entry, result.stopLoss);
+    const entryMeta = entryQuality(candles, result.signal, result.entry, result.stopLoss);
     return {
       ...result,
       ...targets,
-      reason: `${result.reason}${targets.targetNote ? ` ${targets.targetNote}` : ''}`.trim(),
+      ...entryMeta,
+      reason: `${result.reason}${entryMeta.entryNote ? ` ${entryMeta.entryNote}` : ''}${targets.targetNote ? ` ${targets.targetNote}` : ''}`.trim(),
     };
+  }
+
+  function entryQuality(candles, signal, currentPrice, stopLoss) {
+    const isLong = signal === 'long';
+    const atr = Indicators.lastValue(Indicators.atr(candles, 14)) || Math.abs(currentPrice - stopLoss);
+    const risk = Math.abs(currentPrice - stopLoss) || atr;
+    const idealEntry = findIdealEntry(candles, signal, currentPrice);
+    const favorableMove = isLong ? currentPrice - idealEntry : idealEntry - currentPrice;
+    const distance = Math.max(0, favorableMove);
+    const distancePct = currentPrice ? (distance / currentPrice) * 100 : 0;
+    const distanceAtr = atr ? distance / atr : 0;
+    const distanceR = risk ? distance / risk : 0;
+
+    let entryStatus = 'ideal';
+    let entryLabel = 'Ideal entry zone';
+    let entryNote = 'Entry is near the ideal zone.';
+
+    if (distanceAtr > 0.9 || distanceR > 0.55 || distancePct > 3.5) {
+      entryStatus = 'missed';
+      entryLabel = 'Missed entry';
+      entryNote = `Price already moved ${distancePct.toFixed(2)}% from ideal entry. Wait for pullback.`;
+    } else if (distanceAtr > 0.55 || distanceR > 0.35 || distancePct > 2) {
+      entryStatus = 'stretched';
+      entryLabel = 'Stretched entry';
+      entryNote = `Entry is stretched ${distancePct.toFixed(2)}% from ideal. Size down or wait.`;
+    } else if (distanceAtr > 0.25 || distanceR > 0.18 || distancePct > 0.8) {
+      entryStatus = 'actionable';
+      entryLabel = 'Actionable pullback';
+      entryNote = `Entry is still actionable, ${distancePct.toFixed(2)}% from ideal.`;
+    }
+
+    return {
+      idealEntry,
+      entryStatus,
+      entryLabel,
+      missedEntry: entryStatus === 'missed',
+      entryMeta: {
+        idealEntry,
+        distancePct,
+        distanceAtr,
+        distanceR,
+        status: entryStatus,
+        label: entryLabel,
+      },
+      entryNote,
+    };
+  }
+
+  function findIdealEntry(candles, signal, currentPrice) {
+    const isLong = signal === 'long';
+    const recent = candles.slice(-120);
+    const ema20 = Indicators.lastValue(Indicators.ema(candles, 20));
+    const ema50 = Indicators.lastValue(Indicators.ema(candles, 50));
+    const { support, resistance } = Indicators.supportResistance(recent, 4);
+    const levels = [
+      ema20,
+      ema50,
+      ...(isLong ? support : resistance),
+    ].filter(Number.isFinite);
+
+    const valid = levels
+      .filter(level => isLong ? level <= currentPrice : level >= currentPrice)
+      .map(level => ({ level, distance: Math.abs(currentPrice - level) }))
+      .sort((a, b) => a.distance - b.distance);
+
+    if (valid.length) return valid[0].level;
+
+    const last = candles[candles.length - 1];
+    return isLong ? Math.min(currentPrice, last.low) : Math.max(currentPrice, last.high);
   }
 
   function realisticTargets(candles, signal, entry, stopLoss) {

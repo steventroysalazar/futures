@@ -7,6 +7,7 @@ const Scanner = (() => {
 
   let allTickers = [];
   let allMarkPrices = [];
+  let allSymbols = [];
   let scanResults = [];
   let isScanning = false;
   let sortField = 'score';
@@ -18,12 +19,14 @@ const Scanner = (() => {
    */
   async function init() {
     try {
-      const [tickers, markPrices] = await Promise.all([
+      const [tickers, markPrices, exchangeInfo] = await Promise.all([
         BinanceAPI.get24hrTickers(),
         BinanceAPI.getAllMarkPrices(),
+        BinanceAPI.getExchangeInfo().catch(() => []),
       ]);
       allTickers = tickers;
       allMarkPrices = markPrices;
+      if (exchangeInfo.length) allSymbols = exchangeInfo;
       return true;
     } catch (e) {
       console.error('[Scanner] Init failed:', e);
@@ -113,7 +116,12 @@ const Scanner = (() => {
                 tp2: signal.tp2,
                 tp3: signal.tp3,
                 leverage: signal.leverage,
-                score: openInterest ? Math.min(score + 5, 100) : score,
+                idealEntry: signal.idealEntry,
+                entryStatus: signal.entryStatus,
+                entryLabel: signal.entryLabel,
+                entryMeta: signal.entryMeta,
+                missedEntry: !!signal.missedEntry,
+                score: Math.max(0, Math.min((openInterest ? score + 5 : score) - (signal.missedEntry ? 35 : signal.entryStatus === 'stretched' ? 12 : 0), 100)),
               };
             } catch (e) {
               console.error(`[Scanner] Error analyzing ${ticker.symbol}:`, e);
@@ -143,6 +151,94 @@ const Scanner = (() => {
       isScanning = false;
       return [];
     }
+  }
+
+  async function scanNewListings({ maxAgeDays = 45, limit = 8 } = {}) {
+    if (!allTickers.length || !allSymbols.length) {
+      await init();
+    }
+
+    const now = Date.now();
+    const tickerBySymbol = new Map(allTickers.map(t => [t.symbol, t]));
+    const stableBases = new Set(['USDC', 'BUSD', 'TUSD', 'FDUSD', 'USDP', 'DAI']);
+
+    const listed = allSymbols
+      .map(info => {
+        const ticker = tickerBySymbol.get(info.symbol);
+        const listedAt = Number(info.onboardDate || 0);
+        const ageDays = listedAt ? Math.max(0, (now - listedAt) / 86400000) : null;
+        return { info, ticker, listedAt, ageDays };
+      })
+      .filter(item => item.ticker)
+      .filter(item => !stableBases.has(item.info.baseAsset))
+      .filter(item => item.ageDays === null || item.ageDays <= maxAgeDays)
+      .sort((a, b) => {
+        if (a.ageDays === null && b.ageDays === null) return Math.abs(b.ticker.priceChangePercent) - Math.abs(a.ticker.priceChangePercent);
+        if (a.ageDays === null) return 1;
+        if (b.ageDays === null) return -1;
+        return a.ageDays - b.ageDays;
+      })
+      .slice(0, Math.max(limit * 3, 18));
+
+    const results = [];
+    const batchSize = 4;
+    for (let i = 0; i < listed.length; i += batchSize) {
+      const batch = listed.slice(i, i + batchSize);
+      const settled = await Promise.allSettled(batch.map(async item => {
+        const ticker = item.ticker;
+        const [candles, fundingHistory, openInterest] = await Promise.all([
+          BinanceAPI.getKlines(ticker.symbol, '15m', 160).catch(() => []),
+          BinanceAPI.getFundingRate(ticker.symbol, 12).catch(() => []),
+          BinanceAPI.getOpenInterest(ticker.symbol).catch(() => null),
+        ]);
+        const signal = candles.length >= 30
+          ? Strategies.analyze({ candles, fundingRate: fundingHistory, openInterest }, 'all')
+          : { signal: 'neutral', confidence: 0, strategyName: 'New Listing', reason: 'Not enough candle history yet' };
+
+        const ageScore = item.ageDays === null ? 8 : Math.max(0, 32 - item.ageDays * 0.9);
+        const momentumScore = Math.min(Math.max(ticker.priceChangePercent, 0) * 4, 34);
+        const volatilityScore = Math.min(Math.abs(ticker.priceChangePercent) * 1.2, 18);
+        const volumeScore = ticker.quoteVolume > 25000000 ? 18 : ticker.quoteVolume > 10000000 ? 12 : ticker.quoteVolume > 3000000 ? 6 : 0;
+        const signalScore = signal.signal === 'long' ? Math.min(signal.confidence / 2, 32) : signal.signal === 'short' ? -10 : 0;
+        const score = Math.round(Math.max(0, Math.min(100, ageScore + momentumScore + volatilityScore + volumeScore + signalScore)));
+
+        return {
+          symbol: ticker.symbol,
+          baseAsset: item.info.baseAsset,
+          listedAt: item.listedAt || null,
+          ageDays: item.ageDays,
+          price: ticker.lastPrice,
+          change24h: ticker.priceChangePercent,
+          volume24h: ticker.quoteVolume,
+          signal: signal.signal,
+          confidence: signal.confidence,
+          strategy: signal.strategyName || 'New Listing',
+          reason: signal.reason,
+          entry: signal.entry,
+          stopLoss: signal.stopLoss,
+          tp1: signal.tp1,
+          tp2: signal.tp2,
+          tp3: signal.tp3,
+          leverage: signal.leverage,
+          idealEntry: signal.idealEntry,
+          entryStatus: signal.entryStatus,
+          entryLabel: signal.entryLabel,
+          entryMeta: signal.entryMeta,
+          missedEntry: !!signal.missedEntry,
+          score,
+        };
+      }));
+
+      settled.forEach(result => {
+        if (result.status === 'fulfilled' && result.value) results.push(result.value);
+      });
+
+      if (i + batchSize < listed.length) await new Promise(resolve => setTimeout(resolve, 180));
+    }
+
+    return results
+      .sort((a, b) => b.score - a.score)
+      .slice(0, limit);
   }
 
   /**
@@ -325,9 +421,11 @@ const Scanner = (() => {
     setSort,
     setFilter,
     applyTickerUpdates,
+    scanNewListings,
     render,
     get isScanning() { return isScanning; },
     get allTickers() { return allTickers; },
+    get allSymbols() { return allSymbols; },
     formatNumber,
     formatVolume,
   };

@@ -464,6 +464,7 @@ const ChartModule = (() => {
     const panel = document.getElementById('chart-setup-panel');
     const isLong = setup.signal === 'long';
     const rows = [
+      { label: 'Ideal', value: setup.idealEntry, color: '#ffc107', style: LightweightCharts.LineStyle.Dashed },
       { label: 'Entry', value: setup.entry, color: '#00d4aa', style: LightweightCharts.LineStyle.Solid },
       { label: 'Stop', value: setup.stopLoss, color: '#ff1744', style: LightweightCharts.LineStyle.Dashed },
       { label: 'TP1', value: setup.tp1, color: '#00e676', style: LightweightCharts.LineStyle.Dashed },
@@ -485,6 +486,7 @@ const ChartModule = (() => {
           <span class="signal-badge ${setup.signal}">${setup.signal.toUpperCase()}</span>
           <span>${setup.strategy || 'Strategy Setup'}</span>
           <span class="text-muted">${setup.confidence || 0}% confidence</span>
+          ${setup.entryLabel ? `<span class="target-tag ${setup.entryStatus === 'stretched' ? 'stretch' : ''}">${setup.entryLabel}</span>` : ''}
         </div>
         <div class="setup-level-grid">
           ${rows.map(row => `

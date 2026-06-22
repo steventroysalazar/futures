@@ -138,6 +138,7 @@ const BinanceAPI = (() => {
         baseAsset: s.baseAsset,
         pricePrecision: s.pricePrecision,
         quantityPrecision: s.quantityPrecision,
+        onboardDate: s.onboardDate || null,
       }));
   }
 

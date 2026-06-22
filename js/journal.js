@@ -60,7 +60,7 @@ const Journal = (() => {
     const created = [];
 
     signals
-      .filter(s => s.signal !== 'neutral' && s.entry && s.stopLoss && s.tp1)
+      .filter(s => s.signal !== 'neutral' && s.entry && s.stopLoss && s.tp1 && !s.missedEntry)
       .forEach(signal => {
         const duplicate = entries.find(entry =>
           entry.symbol === signal.symbol &&
@@ -84,6 +84,10 @@ const Journal = (() => {
           tp2: signal.tp2,
           tp3: signal.tp3,
           leverage: signal.leverage,
+          idealEntry: signal.idealEntry,
+          entryStatus: signal.entryStatus,
+          entryLabel: signal.entryLabel,
+          entryMeta: signal.entryMeta,
           reason: signal.reason,
           source,
           status: 'open',
