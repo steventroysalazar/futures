@@ -756,17 +756,39 @@ const Strategies = (() => {
     let score = 0;
     const lastPrice = candles[candles.length - 1].close;
 
-    // Volatility (higher = better for us)
+    // Wick Penalty & Structure (Professional Model)
+    // We want clean price action, not erratic stop-hunting wicks
     const recentCandles = candles.slice(-20);
-    const avgRange = recentCandles.reduce((sum, c) => sum + (c.high - c.low) / c.close, 0) / recentCandles.length;
-    score += Math.min(avgRange * 1000, 30); // Up to 30 points for volatility
+    let totalWickRatio = 0;
+    recentCandles.forEach(c => {
+      const body = Math.abs(c.open - c.close);
+      const totalRange = c.high - c.low || 1;
+      const wicks = totalRange - body;
+      totalWickRatio += wicks / totalRange;
+    });
+    const avgWickRatio = totalWickRatio / recentCandles.length;
+    
+    // Penalize if wicks make up > 45% of the average candle (erratic market)
+    if (avgWickRatio > 0.45) {
+      score -= (avgWickRatio - 0.45) * 50; 
+    } else {
+      // Reward smooth, solid-bodied price action
+      score += (0.45 - avgWickRatio) * 30; 
+    }
 
-    // Trend strength
+    // Trend Smoothness & Health
     if (candles.length >= 50) {
       const sma50 = Indicators.sma(candles.slice(-60), 50);
       if (sma50.length > 0) {
-        const trendPct = Math.abs((lastPrice - sma50[sma50.length - 1].value) / sma50[sma50.length - 1].value) * 100;
-        score += Math.min(trendPct * 2, 25); // Up to 25 points for trend strength
+        const lastSMA = sma50[sma50.length - 1].value;
+        const trendPct = Math.abs((lastPrice - lastSMA) / lastSMA) * 100;
+        
+        // Reward healthy trend distance (up to 15%), but penalize parabolic exhaustion
+        if (trendPct > 15) {
+          score -= Math.min((trendPct - 15) * 1.5, 20); // Penalty for over-extension
+        } else {
+          score += Math.min(trendPct * 2, 25); // Reward strong, steady trend
+        }
       }
     }
 

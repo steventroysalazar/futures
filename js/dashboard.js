@@ -666,9 +666,11 @@ const Dashboard = (() => {
   }
 
   function updateSignals(results) {
+    // Only record the ones that show up in Top Opportunities
     const signals = results
-      .filter(r => r.signal !== 'neutral' && r.confidence >= 35)
-      .slice(0, 15);
+      .filter(r => r.signal !== 'neutral' && r.confidence >= 40 && !r.missedEntry)
+      .sort((a, b) => entryPriority(a) - entryPriority(b) || b.score - a.score)
+      .slice(0, 8);
 
     const now = new Date();
     signals.forEach(s => {
@@ -779,6 +781,7 @@ const Dashboard = (() => {
     applyLiveMarkPrice,
     updateHeroStats,
     getSignalLog,
+    entryPriority,
   };
 
 })();

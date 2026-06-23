@@ -52,16 +52,17 @@ const Scanner = (() => {
       allTickers = tickers;
       allMarkPrices = markPrices;
 
-      // Pre-filter: Only USDT pairs with decent volume
+      // Pre-filter: Only USDT pairs with high liquidity
       // Exclude stablecoins and low-volume pairs
       const stablecoins = ['USDCUSDT', 'BUSDUSDT', 'TUSDUSDT', 'DAIUSDT', 'FDUSDUSDT', 'EURUSDT'];
       const candidates = allTickers
         .filter(t =>
           !stablecoins.includes(t.symbol) &&
-          t.quoteVolume > 5000000 && // Min $5M 24h volume
+          t.quoteVolume > 15000000 && // Min $15M 24h volume for professional liquidity
           Math.abs(t.priceChangePercent) > 0.5 // At least 0.5% movement
         )
-        .sort((a, b) => Math.abs(b.priceChangePercent) - Math.abs(a.priceChangePercent))
+        // Sort by highest liquidity (volume) instead of maximum volatility
+        .sort((a, b) => b.quoteVolume - a.quoteVolume)
         .slice(0, topN);
 
       // Deep scan each candidate

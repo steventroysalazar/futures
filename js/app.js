@@ -292,7 +292,11 @@ const App = (() => {
       } else if (currentView === 'signals') {
         await Scanner.init();
         const results = await Scanner.scan(currentStrategy, 30);
-        Journal.recordSignals(results.filter(r => r.signal !== 'neutral'), 'signals');
+        const signalsToRecord = results
+          .filter(r => r.signal !== 'neutral' && r.confidence >= 40 && !r.missedEntry)
+          .sort((a, b) => Dashboard.entryPriority ? Dashboard.entryPriority(a) - Dashboard.entryPriority(b) || b.score - a.score : b.score - a.score)
+          .slice(0, 8);
+        Journal.recordSignals(signalsToRecord, 'signals');
         await Journal.refreshOpenEntries();
         renderSignals();
       }
@@ -710,7 +714,11 @@ const App = (() => {
     // Run scan
     await Scanner.init();
     const results = await Scanner.scan(currentStrategy, 30);
-    Journal.recordSignals(results.filter(r => r.signal !== 'neutral'), 'scanner');
+    const signalsToRecord = results
+      .filter(r => r.signal !== 'neutral' && r.confidence >= 40 && !r.missedEntry)
+      .sort((a, b) => Dashboard.entryPriority ? Dashboard.entryPriority(a) - Dashboard.entryPriority(b) || b.score - a.score : b.score - a.score)
+      .slice(0, 8);
+    Journal.recordSignals(signalsToRecord, 'scanner');
     Scanner.render('scanner-results');
   }
 
@@ -719,7 +727,11 @@ const App = (() => {
     if (btn) btn.textContent = '⏳ Scanning...';
 
     const results = await Scanner.scan(currentStrategy, 30);
-    Journal.recordSignals(results.filter(r => r.signal !== 'neutral'), 'scanner');
+    const signalsToRecord = results
+      .filter(r => r.signal !== 'neutral' && r.confidence >= 40 && !r.missedEntry)
+      .sort((a, b) => Dashboard.entryPriority ? Dashboard.entryPriority(a) - Dashboard.entryPriority(b) || b.score - a.score : b.score - a.score)
+      .slice(0, 8);
+    Journal.recordSignals(signalsToRecord, 'scanner');
     Scanner.render('scanner-results');
 
     if (btn) btn.textContent = '↻ Scan Now';
